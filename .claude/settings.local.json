@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(npm install)",
+      "PowerShell(npm install --prefix web)",
+      "PowerShell(npm run fetch)",
+      "PowerShell(npm run build --prefix web)",
+      "PowerShell(git rm --cached -r .claude 2>$null)",
+      "PowerShell(git add -A)"
+    ]
+  }
+}

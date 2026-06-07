@@ -1,0 +1,1108 @@
+{
+  "generatedAt": "2026-06-07T05:35:01.546Z",
+  "dateRange": {
+    "from": "2026-06-05",
+    "to": "2026-06-07"
+  },
+  "model": "claude-opus-4-8",
+  "marketOverview": "ตลาดหุ้นเทคโนโลยีเผชิญแรงเทขายอย่างหนักในสัปดาห์นี้ โดย Nasdaq Composite ร่วงแรงที่สุดในรอบกว่าหนึ่งปี และกลุ่มชิป AI ถูกขายออกพร้อมกันหลังรายงานผลประกอบการของ Broadcom สร้างความผิดหวัง รวมถึงข้อมูลการจ้างงานสหรัฐที่แข็งแกร่งกดดันทิศทางดอกเบี้ย นักวิเคราะห์บางส่วนเตือนถึงความเสี่ยงฟองสบู่ AI ขณะที่อีกฝั่งมองว่าพื้นฐานยังแข็งแกร่งและการปรับฐานเป็นโอกาส ความสนใจยังโฟกัสที่ดีล SpaceX IPO และการที่ Nvidia รุกตลาด CPU ท้าทายผู้เล่นเดิม",
+  "stocks": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Semiconductors",
+      "sentiment": "positive",
+      "summary": "Nvidia ถูกมองว่าราคายังน่าสนใจในกลุ่ม Magnificent Seven และมีบทบาทสำคัญในโครงสร้างพื้นฐาน AI รวมถึงดีลกับ Apple ในการพัฒนา Siri แม้มูลค่าตลาดจะหลุดต่ำกว่า 5 ล้านล้านดอลลาร์ในช่วงเทขาย",
+      "keyPoints": [
+        "ถูกจัดเป็นหนึ่งในหุ้น Magnificent Seven ที่ราคาน่าสนใจ",
+        "พันธมิตรกับ Apple ใช้ชิป Blackwell B200 สำหรับ Siri",
+        "รุกตลาด CPU ใหม่ ท้าทาย Intel และ Qualcomm"
+      ],
+      "quote": {
+        "current": 205.1,
+        "change": -13.56,
+        "percentChange": -6.2014,
+        "prevClose": 218.66
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "SpaceX, Anthropic, and OpenAI Won't Be Added to the S&P 500 in 2026. Here's What Investors Can Do About It.",
+          "summary": "ETFs that aren't bogged down by index rules will still be buying SpaceX shortly after its IPO.",
+          "url": "https://finnhub.io/api/news?id=c540c06edfe36e89c0524f443bf380354d8f9ea2988f675d77efe7d0b216604e",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:20:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Apple Stock: Buy, Sell, or Hold?",
+          "summary": "The tech giant's stock is sitting near a record high, and looming catalysts could keep the momentum going.",
+          "url": "https://finnhub.io/api/news?id=66e53ff973def6a03db223fea864b874d78ab7cf4bfac619a4d35cd183871ab1",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:11:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Forget Palantir Stock at $140 per Share. Buy This Artificial Intelligence (AI) Chip ETF Instead.",
+          "summary": "This ETF has posted a 10-year annualized return of 66%.",
+          "url": "https://finnhub.io/api/news?id=ed717fafdc6f6b18153fb9ef7185aa7b8cac777d4ff5c752d152025da3f53d95",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T02:50:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Meet the AI Company That Can Thrive Even if an AI Bubble Bursts",
+          "summary": "Tesla is integrating artificial intelligence (AI) into its solutions rather than relying on it to drive revenue growth. That could be good news over the long term if the AI bubble bursts.",
+          "url": "https://finnhub.io/api/news?id=196f4e863bfa0e9ce33d54c6cf6a045ffd54215580387ab39803045c4f3bec49",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T02:20:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "The SpaceX IPO Could Spark a \"Risk-On\" Rally: Here Are 2 Stocks That Could Benefit",
+          "summary": "SpaceX's June 12 IPO could have a big impact on other high-flying stocks.",
+          "url": "https://finnhub.io/api/news?id=c9c348335c3bcf7b723b6b09a49884bab62f0626a2999341b4211af42b5c80dd",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T01:20:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Here's Why Warren Buffett Changed His Mind About Tech Stocks",
+          "summary": "The businesses changed.",
+          "url": "https://finnhub.io/api/news?id=b5f4ec0ab2ce0e5ad35c540ecbdabd853cbc9cc8a2fdd3cc2212e4ba961589f2",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T01:18:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Cerebras Opened at $350 -- Nearly Double Its IPO Price -- Then Pulled Back 20% the Next Day. Is Cerebras Stock a Buy or a Trap?",
+          "summary": "The early momentum for Cerebras fizzled out quickly after it went public.",
+          "url": "https://finnhub.io/api/news?id=00e8b49859e9e71fda647ed5b5b89cb49475c3c27a86a6d50c50e1e24b365270",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T00:40:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "sector": "Semiconductors",
+      "sentiment": "neutral",
+      "summary": "หุ้นชิป AI ถูกเทขายในสัปดาห์นี้ ทำให้เกิดคำถามว่า AMD เป็นโอกาสซื้อหรือไม่ ขณะที่ TD Cowen ปรับเป้าราคาขึ้นเป็น 600 ดอลลาร์และคงคำแนะนำ Buy",
+      "keyPoints": [
+        "TD Cowen ปรับเป้าราคาขึ้นเป็น 600 ดอลลาร์",
+        "เผชิญแรงขายในกลุ่มชิป AI",
+        "มีคำเตือนเรื่องความเสี่ยงฟองสบู่ AI"
+      ],
+      "quote": {
+        "current": 466.38,
+        "change": -56.82,
+        "percentChange": -10.8601,
+        "prevClose": 523.2
+      },
+      "headlines": [
+        {
+          "title": "AI Chip Stocks Sold Off This Week. Is AMD a Buying Opportunity or a Falling Knife?",
+          "summary": "The chipmaker's business is firing on all cylinders, but the recent pullback raises a familiar question for investors.",
+          "url": "https://finnhub.io/api/news?id=b92da3822331c396b722dfeedf040cf3064991a46ba9637fcd381f64980d76d7",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T19:12:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "TD Cowen Raises PT on Advanced Micro Devices (AMD) Stock",
+          "summary": "Advanced Micro Devices, Inc. (NASDAQ:AMD) is one of the Best Big Company Stocks to Buy Right Now. On June 1, TD Cowen lifted its price target on the company’s stock to $600 from $500 and maintained a “Buy” rating on the shares post meeting with management. As per the analyst, Advanced Micro Devices, Inc. (NASDAQ:AMD) demonstrated a […]",
+          "url": "https://finnhub.io/api/news?id=e0271c97cf962cb1675e46e334c774edf89ac68cd210e232997fe6b10cf50306",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:25:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Is The AI Bubble About To Burst? Top Experts Deliver Major Warning",
+          "summary": "Some top analysts are warning of a potential AI bubble that may burst soon, concerns that jumped after the recent retreat of AI stocks",
+          "url": "https://finnhub.io/api/news?id=2c40724a484674779aa5eff35d27bae3a348ec00671931375ca6db2b9b5cfacf",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T16:28:20.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Broadcom-Inc-.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "Retail Investors Are Beating Wall Street Benchmarks With AI Stocks. Why That Could Change Soon.",
+          "summary": "Retail investors have outperformed Wall Street benchmarks in 2026 by concentrating on leading AI stocks like Micron and Nvidia, raising the question of whether their winning streak can continue.",
+          "url": "https://finnhub.io/api/news?id=1ac51ac4412c8ad0cf8c1409ff9f42fb671bebf395435c387510c35791b86ea4",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T15:30:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "SpaceX IPO Could Create More Wealth Than All IPOs in the Last 20 Years Combined. Here’s Why Early Investors Are Banking On It",
+          "summary": "On a recent Earn Your Leisure segment, co-host Rashaad Bilal quoted investor Barry Atlas with a claim that stops you mid-scroll: “these companies are going to make more money than all of the IPOs in the last 20 years put together,” creating “a whole new class of billionaires” from just a handful of listings. SpaceX ... SpaceX IPO Could Create More Wealth Than All IPOs in the Last 20 Years Combined. Here’s Why Early Investors Are Banking On It",
+          "url": "https://finnhub.io/api/news?id=ce93a6e07ffcef46b3e8c92a48c6248e46d04f46b7ca5d3a99e591f1ad297745",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T15:04:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Marvell Technology CEO Matt Murphy Believes This Is The 'Most Beautiful Thing' One Person Can Do For Another And It Can 'Change Their Life'",
+          "summary": "Marvell Technology Inc. CEO Murphy credits confidence from late Maxim Integrated founder Gifford as key to his success.",
+          "url": "https://finnhub.io/api/news?id=716d1f2f0c845551352bffcdfe7cec63de051b016254a069485aba1488eab8f4",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T13:01:16.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Advice-Word-Written-On-Wood-Block--Advic.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "After A 40% Gain In 10 Weeks, Where Does The S&P Tech Index Go From Here?",
+          "summary": "Fundamentals support surging AI tech stocks like AMD, MSFT, and META, backed by an expanding infrastructure growth cycle. Learn why fundamentals support further upside.",
+          "url": "https://finnhub.io/api/news?id=49254a69beb5085d9ae021dc45f616c560fa2080b805d66cbc7f2fe35341eb70",
+          "source": "SeekingAlpha",
+          "datetime": "2026-06-06T08:30:00.000Z",
+          "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1455743464/image_1455743464.jpg?io=getty-c-w1536"
+        },
+        {
+          "title": "Did Nvidia Just Say Checkmate to AMD and Intel?",
+          "summary": "Nvidia spotted a new multibillion-dollar market.",
+          "url": "https://finnhub.io/api/news?id=08b1b3a5fc2b7ae878ca4abba1ee6a24d71fb5a7da1b1fcd001372e001d9e2f3",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T08:28:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Semiconductors",
+      "sentiment": "neutral",
+      "summary": "Intel ประกาศความร่วมมือระยะยาวกับ Hitachi ในด้าน physical AI และโครงสร้างอุตสาหกรรม แต่หุ้นปรับตัวลงตามแรงขายในกลุ่มชิป",
+      "keyPoints": [
+        "ร่วมมือ Hitachi ครอบคลุม foundry, ควอนตัม และ edge-AI",
+        "หุ้นอ่อนตัวตามการเทขายกลุ่มชิป",
+        "เผชิญแรงกดดันจาก Nvidia ที่รุกตลาด CPU"
+      ],
+      "quote": {
+        "current": 99.17,
+        "change": -12.61,
+        "percentChange": -11.2811,
+        "prevClose": 111.78
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "SpaceX, Anthropic, and OpenAI Won't Be Added to the S&P 500 in 2026. Here's What Investors Can Do About It.",
+          "summary": "ETFs that aren't bogged down by index rules will still be buying SpaceX shortly after its IPO.",
+          "url": "https://finnhub.io/api/news?id=c540c06edfe36e89c0524f443bf380354d8f9ea2988f675d77efe7d0b216604e",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:20:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Forget Palantir Stock at $140 per Share. Buy This Artificial Intelligence (AI) Chip ETF Instead.",
+          "summary": "This ETF has posted a 10-year annualized return of 66%.",
+          "url": "https://finnhub.io/api/news?id=ed717fafdc6f6b18153fb9ef7185aa7b8cac777d4ff5c752d152025da3f53d95",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T02:50:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Here's Why Warren Buffett Changed His Mind About Tech Stocks",
+          "summary": "The businesses changed.",
+          "url": "https://finnhub.io/api/news?id=b5f4ec0ab2ce0e5ad35c540ecbdabd853cbc9cc8a2fdd3cc2212e4ba961589f2",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T01:18:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Cerebras Opened at $350 -- Nearly Double Its IPO Price -- Then Pulled Back 20% the Next Day. Is Cerebras Stock a Buy or a Trap?",
+          "summary": "The early momentum for Cerebras fizzled out quickly after it went public.",
+          "url": "https://finnhub.io/api/news?id=00e8b49859e9e71fda647ed5b5b89cb49475c3c27a86a6d50c50e1e24b365270",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T00:40:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Investors Are Growing More Fearful of the Stock Market. Warren Buffett Has 6 Words for Moments Like This.",
+          "summary": "Buffett's timeless advice is both simple and encouraging for those nervous about the market.",
+          "url": "https://finnhub.io/api/news?id=4eb35ff256448f7efa2356c8109a6cb7c23f41ee54b05992a26da63856e4e8cf",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T00:20:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Intel And Hitachi Link Physical AI To Long Term Industrial Growth",
+          "summary": "Intel (NasdaqGS:INTC) announced a new multi-year collaboration with Hitachi to integrate advanced computing, physical AI, and digital infrastructure across manufacturing, energy, and mobility. The partnership focuses on five areas, including foundry tools, quantum computing, energy optimization, custom silicon, and edge-AI and factory automation. Hitachi plans to use Intel computing platforms, AI chips, and foundry capabilities in mission-critical operational technology and information...",
+          "url": "https://finnhub.io/api/news?id=bdff15072a0371d0df2a5d08563254acb7c893250b34a95d1728618bf2b7a958",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T00:16:56.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Could Nvidia Reach a $10 Trillion Market Cap? I Think So. And It Will Happen Faster Than You Think.",
+          "summary": "Nvidia is trading at a fair valuation, and its revenues and earnings are growing rapidly.",
+          "url": "https://finnhub.io/api/news?id=9a2984a52239a9f064e2d038303217b9738822e0e6af0be613e9ff896ad78a93",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T23:21:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "sector": "Consumer Tech",
+      "sentiment": "positive",
+      "summary": "หุ้น Apple อยู่ใกล้ระดับสูงสุดเป็นประวัติการณ์ โดยเตรียมยกเครื่อง Siri ครั้งใหญ่ด้วยการพึ่งพาชิป Nvidia และ Google Cloud ขณะที่ Morgan Stanley คงคำแนะนำ Overweight เป้าราคา 330 ดอลลาร์",
+      "keyPoints": [
+        "เตรียมยกเครื่อง Siri ด้วยชิป Nvidia และ Google Cloud",
+        "Morgan Stanley คง Overweight เป้า 330 ดอลลาร์",
+        "กลยุทธ์ AI อาจช่วยปลดล็อกมูลค่าหุ้น"
+      ],
+      "quote": {
+        "current": 307.34,
+        "change": -3.89,
+        "percentChange": -1.2499,
+        "prevClose": 311.23
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Apple Stock: Buy, Sell, or Hold?",
+          "summary": "The tech giant's stock is sitting near a record high, and looming catalysts could keep the momentum going.",
+          "url": "https://finnhub.io/api/news?id=66e53ff973def6a03db223fea864b874d78ab7cf4bfac619a4d35cd183871ab1",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:11:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "$10,000 Invested in XLK on New Year’s Eve Is Worth $13,434 Today",
+          "summary": "Ten thousand dollars dropped into Technology Select Sector SPDR Fund (NYSEARCA:XLK) at the close on December 31, 2025 was worth about $13,434 at the close on June 4, 2026. The same ten grand in SPY was worth about $11,102. That is the entire \"three to one\" story, 34% for the tech SPDR against 11% for ... $10,000 Invested in XLK on New Year’s Eve Is Worth $13,434 Today",
+          "url": "https://finnhub.io/api/news?id=8b2a83de5f364805a27b0d8de8c4627549d73688a918f5a56350b3860a7bb9c2",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T00:15:52.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "NVIDIA Apple Siri Alliance Puts AI Chips And Valuation In Focus",
+          "summary": "Apple is preparing a major Siri overhaul that will use Nvidia (NasdaqGS:NVDA) Blackwell B200 chips, with workloads expected to run on Google Cloud. This setup positions Nvidia hardware at the core of Apple's consumer AI services, alongside infrastructure from a direct cloud competitor. At the same time, Nvidia faces closer U.S. scrutiny of AI chip exports, and CEO Jensen Huang has been invited to testify before Congress on compliance with China-related export rules. Nvidia, through its data...",
+          "url": "https://finnhub.io/api/news?id=dfe7c7b9a559f04ea61d02563387969f3baab1eed8e598aba86eb290b796f9e5",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T23:11:46.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Apple is leaning on two rivals to finally fix Siri",
+          "summary": "There is an old belief in business that the safest way to protect something is to build every piece of it yourself. Own the factory, write the software, design the silicon, and that way no rival can ever pull the rug out from under you. Apple (AAPL) turned that belief into something close to a ...",
+          "url": "https://finnhub.io/api/news?id=13201b7e3ac7f743790f74ff32d129a1266075d09dddb9cf8448c23915c2bd52",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T18:33:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Nvidia Just Slipped Below $5 Trillion. These Are the Few Companies With a Realistic Shot at Catching It.",
+          "summary": "A handful of megacaps have closed enough ground to make the AI chip leader's crown look less than permanent -- but each would need a specific set of things to break its way.",
+          "url": "https://finnhub.io/api/news?id=145ab97cae0d7fcb9adf4a5e001ef128f2430c28f298735a681c8424fe0ba556",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:43:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Here’s Why Apple (AAPL) is One of the Best Big Company Stocks to Buy Right Now",
+          "summary": "Apple Inc. (NASDAQ:AAPL) is one of the Best Big Company Stocks to Buy Right Now. On June 1, Morgan Stanley analyst Erik Woodring reiterated an “Overweight” rating and a price objective of $330. The analyst believes that a successful AI strategy can help unlock a higher valuation for the company’s stock. Apple Inc. (NASDAQ:AAPL)’s recent strength was backed […]",
+          "url": "https://finnhub.io/api/news?id=716080e08abeeef95bba9a2428bc5579870f1c793d35bec844995a74a723a64b",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:24:54.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "The Dow's Split Personality: Why Some Winners Soar While Others Drag Down the Dow",
+          "summary": "The oldest stock index in the world is suffering from a severe case of split personality. This internal friction has triggered a mechanical phenomenon, the likes of which I cannot recall, at least to this degree.",
+          "url": "https://finnhub.io/api/news?id=e5cffa8e6e10526be170c194a4cfb0256214d3e72ab5a96cd21ce8545c4381f3",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:00:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "sector": "Software",
+      "sentiment": "positive",
+      "summary": "Microsoft ถูกจัดเป็นหนึ่งในหุ้น Magnificent Seven ที่ราคาน่าสนใจ และ Wells Fargo ปรับเป้าราคาขึ้นเป็น 650 ดอลลาร์ พร้อมคง Overweight แม้นักลงทุนยังกังวลกลยุทธ์ AI",
+      "keyPoints": [
+        "Wells Fargo ปรับเป้าราคาขึ้นเป็น 650 ดอลลาร์",
+        "ถูกมองว่าราคายังต่ำกว่ามูลค่า",
+        "เป็นผู้มีโอกาสไล่ตามมูลค่าตลาด Nvidia"
+      ],
+      "quote": {
+        "current": 416.67,
+        "change": -11.38,
+        "percentChange": -2.6586,
+        "prevClose": 428.05
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "$10,000 Invested in XLK on New Year’s Eve Is Worth $13,434 Today",
+          "summary": "Ten thousand dollars dropped into Technology Select Sector SPDR Fund (NYSEARCA:XLK) at the close on December 31, 2025 was worth about $13,434 at the close on June 4, 2026. The same ten grand in SPY was worth about $11,102. That is the entire \"three to one\" story, 34% for the tech SPDR against 11% for ... $10,000 Invested in XLK on New Year’s Eve Is Worth $13,434 Today",
+          "url": "https://finnhub.io/api/news?id=8b2a83de5f364805a27b0d8de8c4627549d73688a918f5a56350b3860a7bb9c2",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T00:15:52.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "DocuSign (DOCU) Is Down 10.0% After AI-Focused Q1 Results And Guidance Update - What's Changed",
+          "summary": "DocuSign, Inc. has reported its first-quarter 2026 results, with revenue rising to US$830.24 million and net income reaching US$78.2 million, while also issuing guidance for up to US$869 million in second-quarter revenue and up to US$3.50 billion for the full fiscal year. At the same time, DocuSign is deepening its AI push by launching an app for OpenAI’s ChatGPT and Codex and appointing former UiPath and Microsoft product leader Graham Sheldon as Chief Product Officer to advance its...",
+          "url": "https://finnhub.io/api/news?id=92998c99b572ecdb1919b1a8ad265a273deaaa42fb8ccc9be1c5437c775c1722",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T22:10:18.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "$10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "summary": "A $10,000 position in the MicroSectors FANG+ 3X Leveraged ETN (NYSEARCA:FNGU) at Thursday’s $32.16 close was worth about $8,392 by Friday’s $26.99 close, a 16% single-session drop on June 5, 2026. Stretch the window back one week and the damage gets uglier. FNGU went from $34.76 on May 29 to $26.99 on June 5, a ... $10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "url": "https://finnhub.io/api/news?id=3694f95f00f85a337cc9a19b8d403e4ff66371d7f85e2b91c101a7f2c26d41f2",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T21:15:16.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Trump AI Policy Adviser Krishnan Is Giving Up White House Role",
+          "summary": "(Bloomberg) -- Sriram Krishnan, a top White House adviser on artificial intelligence, is stepping down from the post.Most Read from BloombergTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalBecerra Advances for California Governor as Hilton Fights SteyerNasdaq 100 Sinks 5% in AI-Led Rout as Yields Climb: Markets WrapSpaceX Inks $30 Billion Computing Power Deal With GoogleSpaceX, Other Mega IPOs Denied Fast Index Entry by S&PA former Andreessen Horowitz partner, Krishnan was",
+          "url": "https://finnhub.io/api/news?id=61b5589177658a2b82b06de6b45cebfed818dfab2c54dfe4ca9071751f51f19a",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T19:10:09.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Nvidia Just Slipped Below $5 Trillion. These Are the Few Companies With a Realistic Shot at Catching It.",
+          "summary": "A handful of megacaps have closed enough ground to make the AI chip leader's crown look less than permanent -- but each would need a specific set of things to break its way.",
+          "url": "https://finnhub.io/api/news?id=145ab97cae0d7fcb9adf4a5e001ef128f2430c28f298735a681c8424fe0ba556",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:43:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Wells Fargo Raises PT on Microsoft (MSFT) Stock",
+          "summary": "Microsoft Corporation (NASDAQ:MSFT) is one of the Best Big Company Stocks to Buy Right Now. On June 1, Wells Fargo analyst Michael Turrin lifted its price objective on the company’s stock to $650 from $625 and kept an “Overweight” rating on the shares. As per the analyst, investor concerns related to Microsoft’s AI strategy have […]",
+          "url": "https://finnhub.io/api/news?id=2619473b7a83cfaaa6825076bc5eef28ef8d62dc51846810407c8a584abb94ed",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:24:23.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "The Dow's Split Personality: Why Some Winners Soar While Others Drag Down the Dow",
+          "summary": "The oldest stock index in the world is suffering from a severe case of split personality. This internal friction has triggered a mechanical phenomenon, the likes of which I cannot recall, at least to this degree.",
+          "url": "https://finnhub.io/api/news?id=e5cffa8e6e10526be170c194a4cfb0256214d3e72ab5a96cd21ce8545c4381f3",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:00:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet (Google)",
+      "sector": "Software",
+      "sentiment": "positive",
+      "summary": "Cathie Wood เข้าซื้อหุ้น Alphabet มูลค่าราว 99 ล้านดอลลาร์ และ Piper Sandler ปรับเป้าราคาขึ้นเป็น 445 ดอลลาร์ พร้อมคง Overweight ขณะที่ SpaceX ทำดีลซื้อพลังประมวลผล 3 หมื่นล้านดอลลาร์กับ Google",
+      "keyPoints": [
+        "Cathie Wood ซื้อหุ้นราว 99 ล้านดอลลาร์",
+        "Piper Sandler ปรับเป้าราคาขึ้นเป็น 445 ดอลลาร์",
+        "SpaceX ทำดีลพลังประมวลผล 3 หมื่นล้านดอลลาร์กับ Google"
+      ],
+      "quote": {
+        "current": 368.53,
+        "change": -3.66,
+        "percentChange": -0.9834,
+        "prevClose": 372.19
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Cathie Wood buys $99 million of popular megacap stock",
+          "summary": "Cathie Wood, chief of Ark Investment Management, has actively traded tech stocks as investors search for the biggest beneficiaries of the AI boom. Wood just made one of her biggest trades of the year in the past week, snapping up roughly $99 million worth of shares in Google’s parent company, ...",
+          "url": "https://finnhub.io/api/news?id=76ab95b08b16619d662bfdda524e63a75514cba10a59399c966c6662981aef85",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T02:03:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "$10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "summary": "A $10,000 position in the MicroSectors FANG+ 3X Leveraged ETN (NYSEARCA:FNGU) at Thursday’s $32.16 close was worth about $8,392 by Friday’s $26.99 close, a 16% single-session drop on June 5, 2026. Stretch the window back one week and the damage gets uglier. FNGU went from $34.76 on May 29 to $26.99 on June 5, a ... $10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "url": "https://finnhub.io/api/news?id=3694f95f00f85a337cc9a19b8d403e4ff66371d7f85e2b91c101a7f2c26d41f2",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T21:15:16.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Google targets costly problem for Android users",
+          "summary": "Americans are losing more money to scams, and fraudsters are getting better at making their messages look and sound familiar. In 2025, the Federal Trade Commission received 3 million fraud reports from consumers, who reported $15.9 billion in losses. That was a sharp increase from the ...",
+          "url": "https://finnhub.io/api/news?id=ad177be7086091e7404a088c412636fb093aa6e3cd05151ac15cba27814c45b9",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T21:03:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Billionaire Daniel Loeb Was Buying 3 of My Favorite AI Stocks in Q1. Here's Why It's Not Too Late to Buy Them.",
+          "summary": "Alphabet, Broadcom, and Meta Platforms have impressive opportunities ahead of them.",
+          "url": "https://finnhub.io/api/news?id=424c36852f61a9de3ab823b3c82fc60454926893b8edcd82c973b7b7825fe485",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T19:53:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Trump AI Policy Adviser Krishnan Is Giving Up White House Role",
+          "summary": "(Bloomberg) -- Sriram Krishnan, a top White House adviser on artificial intelligence, is stepping down from the post.Most Read from BloombergTrump Says He, Not Congress, Is in Charge of Kennedy Center in ReversalBecerra Advances for California Governor as Hilton Fights SteyerNasdaq 100 Sinks 5% in AI-Led Rout as Yields Climb: Markets WrapSpaceX Inks $30 Billion Computing Power Deal With GoogleSpaceX, Other Mega IPOs Denied Fast Index Entry by S&PA former Andreessen Horowitz partner, Krishnan was",
+          "url": "https://finnhub.io/api/news?id=61b5589177658a2b82b06de6b45cebfed818dfab2c54dfe4ca9071751f51f19a",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T19:10:09.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Nvidia Just Slipped Below $5 Trillion. These Are the Few Companies With a Realistic Shot at Catching It.",
+          "summary": "A handful of megacaps have closed enough ground to make the AI chip leader's crown look less than permanent -- but each would need a specific set of things to break its way.",
+          "url": "https://finnhub.io/api/news?id=145ab97cae0d7fcb9adf4a5e001ef128f2430c28f298735a681c8424fe0ba556",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:43:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Piper Sandler Raises PT on Alphabet (GOOGL) Stock",
+          "summary": "Alphabet Inc. (NASDAQ:GOOGL) is one of the Best Big Company Stocks to Buy Right Now. On June 1, Piper Sandler analyst Thomas Champion lifted its price objective on the company’s stock to $445 from $425 and kept an “Overweight” rating on the shares. The firm released its first analysis of citations data throughout searches in Google’s […]",
+          "url": "https://finnhub.io/api/news?id=7e41041a9c5502f39980fdb6a4dea909c4f205373c5e09212a6e504788ba2d4e",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:24:37.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "sector": "EV / Tech",
+      "sentiment": "neutral",
+      "summary": "Tesla เดินหน้าธุรกิจ Robotaxi และยอดขายในจีนเดือนพฤษภาคมเพิ่มขึ้นเกือบ 40% จากการขยาย FSD ขณะที่ JPMorgan ปรับมุมมองหุ้น แต่ยังมีข้อกังวลเรื่องอัตราส่วน P/E ที่สูง",
+      "keyPoints": [
+        "ยอดขายในจีนเดือนพฤษภาคมพุ่งเกือบ 40%",
+        "Robotaxi คืบหน้าทะลุ 1.7 ล้านไมล์",
+        "กังวลเรื่อง P/E ที่สูงและการเปรียบเทียบกับ SpaceX"
+      ],
+      "quote": {
+        "current": 391,
+        "change": -27.45,
+        "percentChange": -6.5599,
+        "prevClose": 418.45
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Meet the AI Company That Can Thrive Even if an AI Bubble Bursts",
+          "summary": "Tesla is integrating artificial intelligence (AI) into its solutions rather than relying on it to drive revenue growth. That could be good news over the long term if the AI bubble bursts.",
+          "url": "https://finnhub.io/api/news?id=196f4e863bfa0e9ce33d54c6cf6a045ffd54215580387ab39803045c4f3bec49",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T02:20:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Tesla Robotaxi takes a big step toward Elon Musk's ultimate vision",
+          "summary": "Tesla Robotaxi has been on a long road, and after surpassing 1.7 million paid miles traveled earlier this year, Tesla sees a much smoother road ahead for its tentpole technology. Tesla bulls point to autonomous driving technology as the missing piece that will unlock the company's true valuation. ...",
+          "url": "https://finnhub.io/api/news?id=15e6c59f3606587ebaf000d0a384a90e537a90c45d8b2fca461acc54b7bc93c8",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T21:33:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Tesla Sales in China Are Popping, But That Means Nothing If You Can’t Stomach TSLA Stock’s Absurd P/E Ratio",
+          "summary": "Tesla China sales jumped almost 40% in May as its FSD software rolled out globally. Here's why TSLA stock still belongs on your watch list now.",
+          "url": "https://finnhub.io/api/news?id=1fb3331b3dbeb89b03b11f9a54d3c8881847d90c9e920fdd79dc439a46e4e40b",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T20:00:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Should Investors Sell Tesla Stock to Buy SpaceX?",
+          "summary": "A SpaceX IPO could fundamentally change how investors perceive Tesla's stock.",
+          "url": "https://finnhub.io/api/news?id=657957c0f26550ee5689b5a0066def829ab45f89af8ba066f8137da4acf454b8",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T18:25:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Elon Musk Says Tesla, SpaceX's Terafab Will Be Grimes County's Largest Revenue Driver As SpaceX Defends Tax Deal",
+          "summary": "SpaceX and Tesla Inc. CEO Elon Musk on Wednesday said the EV giant’s Terafab chip fabrication facility in Grimes County, Texas, would become the county’s largest source of revenue. Terafab To Account For 25% Tax Revenue In a response to...",
+          "url": "https://finnhub.io/api/news?id=def7839a25463813e04b87b874e195ce56686fa4f10189a53332f18ea4bdd748",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:31:11.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "The Biggest IPOs in History -- and How They Performed",
+          "summary": "There were some clunkers and expected early stumbles. By and large, though, most have done pretty well.",
+          "url": "https://finnhub.io/api/news?id=9f6e7136d2f265bf07e1cf37380059735cd4fb8667773bf6f8040f0f40c93e74",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T16:25:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "JPMorgan sets jaw-dropping Tesla stock price target",
+          "summary": "For the better part of a decade, JPMorgan was one of Tesla's most reliable institutional bears. Ryan Brinkman, who covered the stock for the bank since 2015, told investors to sell through earnings beats, record highs, and multiple cycles of Wall Street enthusiasm. His final target of $145, ...",
+          "url": "https://finnhub.io/api/news?id=acb8a612f781209b2ea6de7c883c5b9ea3daeacf43ec2661eb99c9663f062eb2",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T15:20:43.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "sector": "Software",
+      "sentiment": "positive",
+      "summary": "Meta ถูกจัดเป็นหุ้นใหญ่ที่น่าซื้อ โดย Morgan Stanley คงสถานะ top pick เป้าราคา 775 ดอลลาร์ ชี้ว่าตลาดอาจมองข้ามความได้เปรียบเชิงแข่งขัน แม้มีข้อกังวลเรื่องการลงทุน AI มหาศาล",
+      "keyPoints": [
+        "Morgan Stanley คง top pick เป้า 775 ดอลลาร์",
+        "Rosenblatt คง Buy เป้า 1,015 ดอลลาร์",
+        "เตรียมเปิดบริการสมัครสมาชิกภายใต้ Meta One"
+      ],
+      "quote": {
+        "current": 593,
+        "change": -34.57,
+        "percentChange": -5.5085,
+        "prevClose": 627.57
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "$10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "summary": "A $10,000 position in the MicroSectors FANG+ 3X Leveraged ETN (NYSEARCA:FNGU) at Thursday’s $32.16 close was worth about $8,392 by Friday’s $26.99 close, a 16% single-session drop on June 5, 2026. Stretch the window back one week and the damage gets uglier. FNGU went from $34.76 on May 29 to $26.99 on June 5, a ... $10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "url": "https://finnhub.io/api/news?id=3694f95f00f85a337cc9a19b8d403e4ff66371d7f85e2b91c101a7f2c26d41f2",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T21:15:16.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "The Conundrum of Investing in AI Today",
+          "summary": "Though money continues to pour into AI, companies are starting to scrutinize their AI investments, which may not be paying off as hoped.",
+          "url": "https://finnhub.io/api/news?id=7a31039ee6c234515ef0666fd501be3cef4c6f9e18227569340e390c719be2bf",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T21:07:37.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Meta Platforms (META): One of the Best Big Company Stocks to Buy Right Now",
+          "summary": "Meta Platforms, Inc. (NASDAQ:META) is one of the Best Big Company Stocks to Buy Right Now. On May 28, Rosenblatt reiterated a “Buy” rating and a price objective of $1,015.00 on the company’s stock. Notably, the company announced its plans to roll out subscription offerings for the critical consumer services under the Meta One umbrella. […]",
+          "url": "https://finnhub.io/api/news?id=52c741bcaf5cb94b4f4e9463d0cb2d6b6ef04aef5c8509c20d9c0bd83a6697dd",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:24:44.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Piper Sandler Raises PT on Alphabet (GOOGL) Stock",
+          "summary": "Alphabet Inc. (NASDAQ:GOOGL) is one of the Best Big Company Stocks to Buy Right Now. On June 1, Piper Sandler analyst Thomas Champion lifted its price objective on the company’s stock to $445 from $425 and kept an “Overweight” rating on the shares. The firm released its first analysis of citations data throughout searches in Google’s […]",
+          "url": "https://finnhub.io/api/news?id=7e41041a9c5502f39980fdb6a4dea909c4f205373c5e09212a6e504788ba2d4e",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:24:37.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Morgan Stanley flags four emerging products to turn Meta into an ’AI winner’",
+          "summary": "Investing.com -- Wall Street's skepticism regarding Meta Platforms Inc's (NASDAQ:META) massive artificial intelligence spending may be overlooking the company's expanding competitive moats, according to Morgan Stanley analyst Brian Nowak. In a recent research note, Nowak reiterated Meta's \"top pick\" status and maintained a $775 price target, representing roughly 30% upside from current levels. Investor sentiment has lagged behind other megacap technology peers due to limited visibility into the",
+          "url": "https://finnhub.io/api/news?id=8c36ce1b848dffe5b3918f62cf65dff0e22451f44eac26271aa864e7807d1ada",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T16:52:57.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Is The AI Bubble About To Burst? Top Experts Deliver Major Warning",
+          "summary": "Some top analysts are warning of a potential AI bubble that may burst soon, concerns that jumped after the recent retreat of AI stocks",
+          "url": "https://finnhub.io/api/news?id=2c40724a484674779aa5eff35d27bae3a348ec00671931375ca6db2b9b5cfacf",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T16:28:20.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Broadcom-Inc-.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "Top Analyst Explains Why the S&P 500, Nasdaq 100, Dow Jones Are Crashing",
+          "summary": "A top analyst has explained why the S&amp;P 500, Nasdaq 100, and Dow Jones indices are crashing this week, including the strong US jobs data.",
+          "url": "https://finnhub.io/api/news?id=2ece56966b6510cdbf1ef666b6abad7fe94d3abe4b6e1f807240913cf18a6c60",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T14:51:20.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Wall-Street-Bull_0.jpeg?width=2048&height=1536"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "sector": "E-commerce / Cloud",
+      "sentiment": "neutral",
+      "summary": "Amazon มีการเติบโตของธุรกิจคลาวด์ที่เร่งตัวและกำไรทำสถิติใหม่ แต่รายจ่ายลงทุนก็เพิ่มขึ้นเร็วเช่นกัน ขณะที่เผชิญกระแสวิจารณ์เรื่องฟีเจอร์กล้อง Ring",
+      "keyPoints": [
+        "ธุรกิจคลาวด์เติบโตเร่งตัว กำไรทำสถิติใหม่",
+        "รายจ่ายลงทุนเพิ่มขึ้นรวดเร็ว",
+        "ถูกวิจารณ์เรื่องความเป็นส่วนตัวของกล้อง Ring"
+      ],
+      "quote": {
+        "current": 246.03,
+        "change": -7.76,
+        "percentChange": -3.0576,
+        "prevClose": 253.79
+      },
+      "headlines": [
+        {
+          "title": "The 4 Best \"Magnificent Seven\" Stocks to Buy Now",
+          "summary": "Amazon, Meta Platforms, Microsoft, and Nvidia look underpriced.",
+          "url": "https://finnhub.io/api/news?id=9c1c3792645d3e8a18d21cfa0678f05598790af346e7ff76c070925878f30c64",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:42:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Amazon finds itself in hot water over Ring camera feature",
+          "summary": "There is an old idea that a person's home is their castle, and that the threshold of a front door marks the line between the public world and the private one. For most of human history, crossing that line meant being seen by, at most, whoever happened to be standing there. That line has quietly ...",
+          "url": "https://finnhub.io/api/news?id=2b6e4de16185512c30764ba308306e33a2d1067c9b99cd70f05ff4ddff5f7b14",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T02:33:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "I Fought The Law (And The Law Won), Vol. 3",
+          "summary": "Why do some organizations seem unable to solve the very problems they were created to fix?",
+          "url": "https://finnhub.io/api/news?id=6065b878d3b2736fd428076ab0c873e86c18fbfa3d27b4c658373b94f281702f",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T22:49:47.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Is Amazon Stock a Buy Right Now?",
+          "summary": "Accelerating cloud growth has the tech giant's profit hitting record levels -- but its capital spending is climbing even faster.",
+          "url": "https://finnhub.io/api/news?id=a02600a14b379cc395ec80f6f5c49f1ae487a63cb4d136580f3fb2bf187bf941",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T19:23:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "The Dow's Split Personality: Why Some Winners Soar While Others Drag Down the Dow",
+          "summary": "The oldest stock index in the world is suffering from a severe case of split personality. This internal friction has triggered a mechanical phenomenon, the likes of which I cannot recall, at least to this degree.",
+          "url": "https://finnhub.io/api/news?id=e5cffa8e6e10526be170c194a4cfb0256214d3e72ab5a96cd21ce8545c4381f3",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:00:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Is The AI Bubble About To Burst? Top Experts Deliver Major Warning",
+          "summary": "Some top analysts are warning of a potential AI bubble that may burst soon, concerns that jumped after the recent retreat of AI stocks",
+          "url": "https://finnhub.io/api/news?id=2c40724a484674779aa5eff35d27bae3a348ec00671931375ca6db2b9b5cfacf",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T16:28:20.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Broadcom-Inc-.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "How many employees does Amazon have in 2026? Its workforce explained",
+          "summary": "Amazon is the world’s largest online retailer, having originated as an e-commerce book seller. But as the company continues to expand beyond online sales, it’s moving into different areas of tech, including cloud computing, voice assistance, and artificial intelligence. To keep its businesses ...",
+          "url": "https://finnhub.io/api/news?id=cfe55c00542268ad3d6388e90233ecac636a48119505c278149298f1e604f4af",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T16:12:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "The \"Magnificent Seven's\" Capex Spending Spree Has Given Birth to 2 Millionaire-Maker Stocks Hiding in Plain Sight. Here's the Best of the Bunch",
+          "summary": "Major hyperscalers in the U.S. are going to spend a significantly higher amount on building AI infrastructure this year, and that's great news for Nvidia and Sandisk.",
+          "url": "https://finnhub.io/api/news?id=95e17f2d71263f12840232c5f4e696ce6bdb269131d51babec36596c367398ff",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T14:43:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Semiconductors",
+      "sentiment": "negative",
+      "summary": "หุ้น Broadcom ร่วงกว่า 12% หลังรายงานผลประกอบการ Q2 FY26 ที่แนวโน้ม AI ผิดหวัง สูญมูลค่าตลาดราว 2.8 แสนล้านดอลลาร์ แม้บริษัทจะช่วยจัดหาเงินทุนผลิตชิปกำหนดเองให้ Anthropic และ OpenAI",
+      "keyPoints": [
+        "หุ้นร่วงกว่า 12% หลังผลประกอบการ",
+        "แนวโน้ม AI ผิดหวัง ถูกเทียบกับ Marvell",
+        "ช่วยจัดหาเงินทุนผลิตชิปให้ Anthropic และ OpenAI"
+      ],
+      "quote": {
+        "current": 385.73,
+        "change": -33.18,
+        "percentChange": -7.9206,
+        "prevClose": 418.91
+      },
+      "headlines": [
+        {
+          "title": "Bank of America resets Broadcom stock price target after earnings",
+          "summary": "Broadcom (AVGO) stock closed the June 4 trading session down 12.59% at $418.91. The stock took a tumble following the release of the second-quarter (Q2) fiscal year 2026 (FY26) earnings report on June 3, and lost about $280 billion in market value, according to Yahoo Finance. The stock is up 21.04% ...",
+          "url": "https://finnhub.io/api/news?id=709e9e8e3712833777762dad4d5c9c31e6e00d91b939a6458cef7247abbfe7e9",
+          "source": "Yahoo",
+          "datetime": "2026-06-07T03:33:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "$10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "summary": "A $10,000 position in the MicroSectors FANG+ 3X Leveraged ETN (NYSEARCA:FNGU) at Thursday’s $32.16 close was worth about $8,392 by Friday’s $26.99 close, a 16% single-session drop on June 5, 2026. Stretch the window back one week and the damage gets uglier. FNGU went from $34.76 on May 29 to $26.99 on June 5, a ... $10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
+          "url": "https://finnhub.io/api/news?id=3694f95f00f85a337cc9a19b8d403e4ff66371d7f85e2b91c101a7f2c26d41f2",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T21:15:16.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "AI Chip Stocks Sold Off This Week. Is AMD a Buying Opportunity or a Falling Knife?",
+          "summary": "The chipmaker's business is firing on all cylinders, but the recent pullback raises a familiar question for investors.",
+          "url": "https://finnhub.io/api/news?id=b92da3822331c396b722dfeedf040cf3064991a46ba9637fcd381f64980d76d7",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T19:12:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Is The AI Bubble About To Burst? Top Experts Deliver Major Warning",
+          "summary": "Some top analysts are warning of a potential AI bubble that may burst soon, concerns that jumped after the recent retreat of AI stocks",
+          "url": "https://finnhub.io/api/news?id=2c40724a484674779aa5eff35d27bae3a348ec00671931375ca6db2b9b5cfacf",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T16:28:20.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Broadcom-Inc-.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "The Biggest IPOs in History -- and How They Performed",
+          "summary": "There were some clunkers and expected early stumbles. By and large, though, most have done pretty well.",
+          "url": "https://finnhub.io/api/news?id=9f6e7136d2f265bf07e1cf37380059735cd4fb8667773bf6f8040f0f40c93e74",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T16:25:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Hunting for the Next Nvidia Is No Easy Feat. Small-Cap Tech Stocks Promise Riches but Really Are Just Rags.",
+          "summary": "There is no such thing as a perfect basket of small-cap AI stocks.",
+          "url": "https://finnhub.io/api/news?id=59e98968468db508cb7a1c8c40ea475a583d0ab6b27a1b731800faf65a9c3417",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T15:00:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Top Analyst Explains Why the S&P 500, Nasdaq 100, Dow Jones Are Crashing",
+          "summary": "A top analyst has explained why the S&amp;P 500, Nasdaq 100, and Dow Jones indices are crashing this week, including the strong US jobs data.",
+          "url": "https://finnhub.io/api/news?id=2ece56966b6510cdbf1ef666b6abad7fe94d3abe4b6e1f807240913cf18a6c60",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T14:51:20.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Wall-Street-Bull_0.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "Anthropic And OpenAI Are So Desperate For Compute They Let Broadcom Finance Their Own Chips For Them",
+          "summary": "Broadcom Inc. CEO Hock Tan said Wednesday the company is helping finance custom artificial intelligence chips for large language model developers, highlighting the enormous infrastructure costs facing AI companies such as Anthropic and OpenAI as they race to scale their...",
+          "url": "https://finnhub.io/api/news?id=f3107bd5b955f0f77fe5caf7ab29eedaa4ad45b2fa27512ab43f1af8cbfc0874",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T11:32:06.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "TSM",
+      "name": "TSMC",
+      "sector": "Semiconductors",
+      "sentiment": "neutral",
+      "summary": "TSMC เผชิญสัปดาห์ที่ยากลำบากของกลุ่มผู้ผลิตชิป แต่ตัวชี้วัดทางเทคนิคยังเป็นบวกโดยราคายังยืนเหนือเส้นค่าเฉลี่ยสำคัญ ทำให้เกิดคำถามว่าการปรับฐานเป็นสัญญาณซื้อหรือไม่",
+      "keyPoints": [
+        "เผชิญแรงขายในกลุ่มชิปทั่วโลก",
+        "ตัวชี้วัดทางเทคนิคยังเป็นบวก",
+        "ราคายังยืนเหนือเส้นค่าเฉลี่ยสำคัญ"
+      ],
+      "quote": {
+        "current": 415.17,
+        "change": -29.75,
+        "percentChange": -6.6866,
+        "prevClose": 444.92
+      },
+      "headlines": [
+        {
+          "title": "Investors To Watch Out For Oracle, Adobe Earnings Next Week",
+          "summary": "Wall Street Week Ahead: track CPI, PPI, key earnings (Oracle, Adobe), dividends, and IPOs like SpaceX. Read here for more details.",
+          "url": "https://finnhub.io/api/news?id=f3a1324f9164a786f20f1203aa7da0185f43333dd5f55b636a03f839f493f7af",
+          "source": "SeekingAlpha",
+          "datetime": "2026-06-06T11:00:00.000Z",
+          "image": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png"
+        },
+        {
+          "title": "Tech And FX: Short-Term Volatility May Cloud Long-Term Trend",
+          "summary": "It has been a tough week for chipmakers, especially those in Korea. Read more here.",
+          "url": "https://finnhub.io/api/news?id=9e9ed3b96218a498b2b61b31bfffe57e92e0239ecc4e4c904a959bc47f86a0eb",
+          "source": "SeekingAlpha",
+          "datetime": "2026-06-05T11:45:00.000Z",
+          "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2223715503/image_2223715503.jpg?io=getty-c-w1536"
+        },
+        {
+          "title": "Momo Aggressively Buys Semiconductor Dip; Big Setback For SpaceX; Blowout Jobs Report",
+          "summary": "\n\n\n\nBlowout Jobs Report\n\n\n",
+          "url": "https://finnhub.io/api/news?id=1b16cf6cc5e48fab0f5939a67615629856e4d5a001dc115c6a7ccc123bde661e",
+          "source": "Benzinga",
+          "datetime": "2026-06-05T11:42:13.000Z",
+          "image": ""
+        },
+        {
+          "title": "Broadcom Has A Marvell Problem",
+          "summary": "Broadcomâs AI outlook missed, raising valuation concerns vs. Marvell. Read this AVGO earnings update to see if this stock is right for you after the selloff.",
+          "url": "https://finnhub.io/api/news?id=e5639720c1317bd9a565a76a7d64124c44f484ade9a55abe2724467af9d80b2a",
+          "source": "SeekingAlpha",
+          "datetime": "2026-06-05T11:37:41.000Z",
+          "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1643360144/image_1643360144.jpg?io=getty-c-w1536"
+        },
+        {
+          "title": "What's Going On With Intel Stock Friday?",
+          "summary": "Intel ($INTC) stock slips in premarket trading amid a broader chip sector selloff. Read the full market and technical analysis.",
+          "url": "https://finnhub.io/api/news?id=d3b43a79d19e90782533a0e0ef48321524bfbca1dbe126becf994e6a9833865c",
+          "source": "Benzinga",
+          "datetime": "2026-06-05T06:56:13.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/05/Intel-Corporation.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "What's Going On With Taiwan Semiconductor Stock Friday?",
+          "summary": "Is the Taiwan Semiconductor stock pullback a buy signal? Technical indicators remain bullish as shares hold well above key moving averages.",
+          "url": "https://finnhub.io/api/news?id=492b49934e78893ad5c9daac90f9773e1cf9dd97c432f65ddc04390f7015595d",
+          "source": "Benzinga",
+          "datetime": "2026-06-05T05:40:00.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/05/Tokyo--Japan--March-2023-an-Image-Of-Tsm.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "Why Micron Is Still 'Pretty Cheap' Despite Its AI-Driven Run: Legato CIO Says This Is 'Not The Dot-Com Bubble'",
+          "summary": "Legato CIO Ryan Kelly explains why the AI stock rally is not a .com bubble, driven by real earnings, and why Micron is still &#39;pretty cheap&#39;.",
+          "url": "https://finnhub.io/api/news?id=fc47c2cca027f9d5e45f5e3b857b4dd13e95e0d820892baed0cf4ae68757e7a5",
+          "source": "Benzinga",
+          "datetime": "2026-06-05T02:28:12.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/05/Micron-Technology-Logo-Displayed-On-Sign.jpeg?width=2048&height=1536"
+        }
+      ],
+      "newsCount": 7
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron",
+      "sector": "Semiconductors",
+      "sentiment": "neutral",
+      "summary": "Micron กลายเป็นสมาชิกใหม่ของสโมสรมูลค่าล้านล้านดอลลาร์หลังพลิกฟื้นกิจการ และนักวิเคราะห์ยังปรับเป้าราคาขึ้น แม้หุ้นจะร่วงกว่า 13% ในวันศุกร์จากแรงเทขายกลุ่ม AI",
+      "keyPoints": [
+        "ก้าวสู่มูลค่าตลาดระดับล้านล้านดอลลาร์",
+        "Morgan Stanley ปรับเป้าราคาขึ้นเป็น 520 ดอลลาร์",
+        "หุ้นร่วงกว่า 13% ในวันศุกร์ มีสัญญาณเตือนให้ระวัง"
+      ],
+      "quote": {
+        "current": 864.01,
+        "change": -131.99,
+        "percentChange": -13.252,
+        "prevClose": 996
+      },
+      "headlines": [
+        {
+          "title": "Micron Makes the $1 Trillion Club a Little More Crowded",
+          "summary": "Micron has had a turnaround for the ages, going from a free cash flow negative company to a $1 trillion valuation in a little over a year.",
+          "url": "https://finnhub.io/api/news?id=4ebf9a88cdd18a78de4e16a30dd6dc01b5dac35305339fbc5d7d973e7c5fcc80",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T20:05:01.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Fed's Mary Daly has blunt message for AI stock investors",
+          "summary": "Mary Daly just issued a stark warning to AI stock investors in a recent sit-down interview with Bloomberg. Daly argues that the broader story remains promising, but clearly the proof is still incomplete. The San Francisco Fed president laid out the case that businesses are clearly spending, ...",
+          "url": "https://finnhub.io/api/news?id=478a35d9b86b680574a94167e6b365261ed9480575a9725d60ecf88991ea2998",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T19:13:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Analyst See More Upside Despite Micron Technology’s (MU) 90% Gains in May",
+          "summary": "Despite Micron Technology, Inc. (NASDAQ:MU)’s impressive 90% gains in May 2026, the Street continues to increase price targets, reflecting continued bullish sentiment on the stock. Micron Technology is also among our Best Performing Stocks in May. ​Recently, on June 3, Morgan Stanley raised the firm’s price target on Micron Technology, Inc. (NASDAQ:MU) from $520 to […]",
+          "url": "https://finnhub.io/api/news?id=60153bd0fea75ea5ed35f502d735bde8eba96328662cd42080549c958f1a9d29",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T17:17:38.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Elizabeth Warren Singles Out Micron, Dell And Eli Lilly As Just 3 Of The 3000+ Trades Trump Made: 'Looks Like An Absurd Level Of Corruption'",
+          "summary": "Sen. Elizabeth Warren (D-Mass.) criticized President Donald Trump’s trading activity, arguing that the volume and timing of transactions in his investment portfolio raised questions about potential conflicts of interest and reinforced the need to ban government officials from trading on...",
+          "url": "https://finnhub.io/api/news?id=8ba9efb0a35bfd5f5125fa4d46ba6b814e95d631909567da699d8bd1e343c7f4",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T16:31:03.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "As Crypto Prices Crash, Two Key Metrics Suggest A Rebound Is Coming",
+          "summary": "Crypto prices continued their strong downtrend Saturday, with Bitcoin (CRYPTO: BTC) crashing to a low of $59,163, its lowest level since 2024, and 52% from its all-tim",
+          "url": "https://finnhub.io/api/news?id=fd3efc1a68bca0fb2a0e351640e656dbf9cfd020a145886a7656c64e4777b8b4",
+          "source": "Benzinga",
+          "datetime": "2026-06-06T15:41:30.000Z",
+          "image": "https://cdn.benzinga.com/files/images/story/2026/06/06/Bitcoin-Cryptocurrency-Red-Light-Warning.jpeg?width=2048&height=1536"
+        },
+        {
+          "title": "Retail Investors Are Beating Wall Street Benchmarks With AI Stocks. Why That Could Change Soon.",
+          "summary": "Retail investors have outperformed Wall Street benchmarks in 2026 by concentrating on leading AI stocks like Micron and Nvidia, raising the question of whether their winning streak can continue.",
+          "url": "https://finnhub.io/api/news?id=1ac51ac4412c8ad0cf8c1409ff9f42fb671bebf395435c387510c35791b86ea4",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T15:30:02.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Why did Micron stock fall 13% on Friday and should you buy the dip?",
+          "summary": "Investing.com -- Micron Technology (NASDAQ:MU) stock tumbled more than 13% on Friday, extending a brutal two-session decline that has now erased a portion of the stock's parabolic year-to-date run.",
+          "url": "https://finnhub.io/api/news?id=636b0ccedd6344d5675f73d0b374d4eb17a3e24fdc803182fa4bdafe16fffb2c",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T11:36:31.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Hoping to Ride Micron Stock Higher? Don't Ignore This Red Flag.",
+          "summary": "Micron has emerged as one of the biggest beneficiaries of the AI boom, but investors should look beyond the excitement.",
+          "url": "https://finnhub.io/api/news?id=a1c5bfe000bde06e147ce1466cfb7e6efa5d8b32264d5b79acd6c09c8023599c",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T10:05:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Semiconductors",
+      "sentiment": "negative",
+      "summary": "หุ้น Qualcomm ร่วงราว 6% จากแรงกดดันผลประกอบการ Broadcom และข้อมูลการจ้างงานที่แข็งแกร่ง รวมถึงความเสี่ยงจาก Nvidia ที่รุกตลาด CPU แม้จะมีความคืบหน้าในธุรกิจ Edge AI ร่วมกับ Primax",
+      "keyPoints": [
+        "หุ้นร่วงราว 6% จากแรงเทขายกลุ่มชิป",
+        "Nvidia รุกตลาด CPU เป็นภัยคุกคามต่อธุรกิจเดิม",
+        "ขยายธุรกิจ Edge AI ร่วมกับ Primax"
+      ],
+      "quote": {
+        "current": 215.94,
+        "change": -26.63,
+        "percentChange": -10.9783,
+        "prevClose": 242.57
+      },
+      "headlines": [
+        {
+          "title": "Qualcomm Edge AI Win With Primax Fuels New Enterprise Valuation Questions",
+          "summary": "Primax Electronics has announced a next generation AI conference solution platform powered by Qualcomm's Dragonwing Edge AI processors. The system focuses on AI driven audio and video collaboration for hybrid meeting rooms and enterprise workplaces. The announcement highlights Qualcomm's push into smart workplace infrastructure beyond smartphones, PCs and data center products. QUALCOMM (NasdaqGS:QCOM) is drawing attention as partners start to apply its Edge AI technology in real world...",
+          "url": "https://finnhub.io/api/news?id=5cb2a894abfa8f61385d3e4e9b99fdc59166332d9752607753ee2f0443894d6e",
+          "source": "Yahoo",
+          "datetime": "2026-06-06T08:06:03.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Why Qualcomm (QCOM) Stock Is Nosediving",
+          "summary": "Shares of wireless chipmaker Qualcomm (NASDAQ:QCOM) fell 6% in the morning session after the AVGO earnings overhang and the stronger-than-expected jobs report combined to drive one of the broadest global chip selloff of the year.",
+          "url": "https://finnhub.io/api/news?id=00aee29d9636dcb326401b375a654c1f00829cf06072708b813ad0538fa2d797",
+          "source": "Yahoo",
+          "datetime": "2026-06-05T23:04:14.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Decoding AVGO Stock's Premium Valuation",
+          "summary": "This is an AI hyper-growth chapter for Broadcom. The company supplies custom AI accelerators and networking chips to a core group of customers, including Google.",
+          "url": "https://finnhub.io/api/news?id=c472e8d6fca8c0a56b866ebec95afe82b8736f9d0d0773900af5263cf104c947",
+          "source": "Yahoo",
+          "datetime": "2026-06-05T21:33:39.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Nasdaq Suffers Worst Day in More Than a Year; S&P 500 Snaps Winning Weekly Streak",
+          "summary": "The Nasdaq Composite logged its biggest one-day decline since April 2025 as traders evaluated the of",
+          "url": "https://finnhub.io/api/news?id=d6a2ef48dd80095eeb623de9d289a824c9e9c13e86df4e575c91dd1e12159bab",
+          "source": "Yahoo",
+          "datetime": "2026-06-05T21:05:43.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "50% Upside For AVGO Stock?",
+          "summary": "Instead of just selling chips via traditional cycles, Broadcom (AVGO) is partnering with Apollo, Blackstone, and other investors on alternative financing structures to fund large-scale AI hardware production. This shifts the business from a transactional component supplier into a vertically scaled, long-term silicon partner.",
+          "url": "https://finnhub.io/api/news?id=b3aaed6023aeae7978432a07c32c64f49ea67880fa343a585e43961412d953f0",
+          "source": "Yahoo",
+          "datetime": "2026-06-05T21:00:56.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Nvidia Is Moving Into Intel and Qualcomm's Turf. These Are the Losers Investors Should Watch Closely.",
+          "summary": "Nvidia's new CPU represents an existential threat to legacy CPU makers.",
+          "url": "https://finnhub.io/api/news?id=63b2c0a3d94dd51c3385ca8b82fa69836edcb57342fca22029800df496412516",
+          "source": "Yahoo",
+          "datetime": "2026-06-05T20:45:00.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "Stocks Settle Sharply Lower as Tech Companies Routed",
+          "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -2.64%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -1.35%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -4.77%. June E-mini S&P futures (ESM26 ) fell -2.97%, and June E-mini Nasdaq futures...",
+          "url": "https://finnhub.io/api/news?id=12c91d9ab421dca877e20a94bac8123c8734377bde6697e6945497ec99a15247",
+          "source": "Yahoo",
+          "datetime": "2026-06-05T20:36:34.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        },
+        {
+          "title": "AI Layoffs Already Have Surpassed Last Year’s Total. Tech Workers Are Being Cut First.",
+          "summary": "The artificial intelligence boom that’s pushing market caps to records is reshaping employment. Challenger, Gray & Christmas data highlighted on CNBC’s Closing Bell Overtime on June 4 indicates that more than 87,000 layoffs this year have been tied to AI, already eclipsing all of 2025’s full-year total just five months in. Chip leader NVIDIA (NASDAQ:NVDA) ... AI Layoffs Already Have Surpassed Last Year’s Total. Tech Workers Are Being Cut First.",
+          "url": "https://finnhub.io/api/news?id=25784f6155675cba4be302db17f529ddabcc13be5bf245b8f756b63d7a9ed268",
+          "source": "Yahoo",
+          "datetime": "2026-06-05T19:01:53.000Z",
+          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+        }
+      ],
+      "newsCount": 8
+    }
+  ]
+}

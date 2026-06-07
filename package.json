@@ -1,0 +1,13 @@
+{
+  "name": "stock-news-fetcher",
+  "version": "1.0.0",
+  "description": "ดึงข่าวหุ้นเทค NASDAQ จาก Finnhub แล้วสรุปเป็นภาษาไทยด้วย Claude",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-news.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "dotenv": "^16.4.7"
+  }
+}

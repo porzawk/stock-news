@@ -1,0 +1,62 @@
+name: Daily Stock News
+
+on:
+  schedule:
+    # cron เป็นเวลา UTC — 11:00 UTC = 18:00 น. ไทย (UTC+7)
+    # อยากเปลี่ยนเวลา: 10:00 UTC = 17:00 ไทย, 09:00 UTC = 16:00 ไทย
+    - cron: "0 11 * * *"
+  workflow_dispatch: {} # ปุ่มกดรันเองจากแท็บ Actions
+  push:
+    branches: [main]
+
+# สิทธิ์ที่ deploy GitHub Pages ต้องใช้
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: ติดตั้ง dependencies (ตัวดึงข่าว)
+        run: npm ci
+
+      - name: ดึงข่าว + สรุปด้วย AI
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node fetch-news.mjs
+
+      - name: ติดตั้ง dependencies (เว็บ)
+        run: npm ci --prefix web
+
+      - name: Build เว็บ
+        run: npm run build --prefix web
+
+      - name: ตั้งค่า Pages
+        uses: actions/configure-pages@v5
+
+      - name: อัปโหลดไฟล์เว็บ
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - name: Deploy ขึ้น GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

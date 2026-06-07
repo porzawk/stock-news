@@ -2,9 +2,9 @@ name: Daily Stock News
 
 on:
   schedule:
-    # cron เป็นเวลา UTC — 11:00 UTC = 18:00 น. ไทย (UTC+7)
-    # อยากเปลี่ยนเวลา: 10:00 UTC = 17:00 ไทย, 09:00 UTC = 16:00 ไทย
-    - cron: "0 11 * * *"
+    # cron เป็นเวลา UTC — 11:30 UTC = 18:30 น. ไทย (UTC+7)
+    # อยากเปลี่ยนเวลา: 10:30 UTC = 17:30 ไทย, 09:30 UTC = 16:30 ไทย
+    - cron: "30 11 * * *"
   workflow_dispatch: {} # ปุ่มกดรันเองจากแท็บ Actions
   push:
     branches: [main]

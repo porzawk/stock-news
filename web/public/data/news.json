@@ -1,27 +1,29 @@
 {
-  "generatedAt": "2026-06-23T17:05:27.272Z",
+  "generatedAt": "2026-06-23T17:29:15.091Z",
   "dateRange": {
     "from": "2026-06-22",
     "to": "2026-06-24"
   },
-  "model": "claude-opus-4-8",
-  "marketOverview": "ตลาดหุ้นเทคโนโลยีบน NASDAQ เผชิญแรงเทขายอย่างหนักในวันอังคาร โดยถูกขนานนามว่าเป็น \"June Tech Wreck\" ท่ามกลางความกังวลเรื่องฟองสบู่ AI และมูลค่าหุ้นที่สูงเกินจริง ตลาดหุ้นเกาหลีใต้ร่วงกว่า 10% จากการดิ่งของ SK Hynix และ Samsung ส่งผลกระทบลามไปยังหุ้นชิปหน่วยความจำทั่วโลก ดัชนี Nasdaq ดิ่งลงแรงขณะที่นักลงทุนเทขายทำกำไรในกลุ่มชิปและ AI ที่พุ่งขึ้นทำสถิติสูงสุดก่อนหน้านี้ แม้นักวิเคราะห์บางส่วนมองว่าการปรับฐานเป็นเรื่อง \"สุขภาพดี\" และยังคงมุมมองเชิงบวกในระยะยาว",
+  "model": "claude (claude-opus-4-8)",
+  "marketOverview": "ตลาดหุ้นเทคเผชิญแรงเทขายหนักในวันอังคาร จากความกังวลเรื่องฟองสบู่ AI และมูลค่าหุ้นที่แพงเกินไป หลังตลาดเกาหลีใต้ร่วงกว่า 10% นำโดยหุ้นชิป SK Hynix และ Samsung ที่ดิ่งกว่า 12% หุ้นกลุ่มเซมิคอนดักเตอร์และหน่วยความจำ (memory chips) ถูกถล่มขายอย่างหนักหลังขึ้นทำจุดสูงสุดเป็นประวัติการณ์ ขณะที่นักวิเคราะห์หลายฝ่ายมองว่าเป็นการ 'ขายทำกำไร' และการปรับฐานที่ดีต่อสุขภาพมากกว่าการล่มสลายของเทรนด์ AI",
   "stocks": [
     {
       "symbol": "AMD",
       "name": "AMD",
       "sector": "Semiconductors",
       "sentiment": "negative",
-      "summary": "หุ้น AMD ถูกเทขายอย่างหนักพร้อมกับกลุ่มชิปอื่นๆ ท่ามกลางความกังวลเรื่องฟองสบู่ AI และมูลค่าหุ้นที่สูงเกินไป อย่างไรก็ตามนักวิเคราะห์บางรายมองว่าการปรับฐานเป็นเรื่องที่ดีต่อตลาดและยังคงมุมมองเชิงบวก",
+      "summary": "AMD ร่วงพร้อมกลุ่มชิปท่ามกลางแรงเทขายหุ้นเทค AI แต่นักวิเคราะห์บางส่วนมองว่าเป็นการปรับฐานที่ดีต่อสุขภาพ และยังมองพื้นฐานระยะยาวเป็นบวกจากการเติบโตของ server CPU และเทคโนโลยี 2nm",
       "keyPoints": [
-        "ถูกเทขายร่วมกับ Nvidia และ Micron ในช่วง AI trade เย็นตัวลง",
-        "มูลค่าหุ้นพุ่งขึ้นกว่า 324% และเทรดที่ P/E สูงถึง 99 เท่า",
-        "นักวิเคราะห์ Morgan Stanley มองการปรับฐานชิปเป็นเรื่อง \"สุขภาพดี\""
+        "ราคาร่วง 4.93% ตามแรงเทขายกลุ่มชิป AI",
+        "นักวิเคราะห์มองการปรับฐานเป็นเรื่องดีต่อสุขภาพ",
+        "P/E สูงถึง 99 เท่า เป็นความเสี่ยงที่ต้องระวัง"
       ],
+      "recommendation": "wait",
+      "recommendationReason": "ราคายังอยู่ในช่วงปรับฐานแรง ควรรอให้สถานการณ์นิ่งก่อนเข้าซื้อ",
       "quote": {
-        "current": 521.21,
-        "change": -30.42,
-        "percentChange": -5.5146,
+        "current": 524.44,
+        "change": -27.19,
+        "percentChange": -4.929,
         "prevClose": 551.63
       },
       "headlines": [
@@ -97,19 +99,29 @@
       "name": "SanDisk",
       "sector": "Storage",
       "sentiment": "negative",
-      "summary": "หุ้น SanDisk ดิ่งลงกว่า 11% หลังทำสถิติสูงสุดวันก่อนหน้า จากผลกระทบตลาดหุ้นเกาหลีร่วงและการระเบิดของ ETF เลเวอเรจหุ้นเดี่ยว นักลงทุนเริ่มตั้งคำถามว่าพื้นฐานบริษัทตามทันราคาที่พุ่งขึ้นในรอบ AI memory supercycle หรือไม่",
+      "summary": "SanDisk ร่วงหนักกว่า 12% เป็นผู้นำการเทขายกลุ่มหน่วยความจำ หลังตลาดเกาหลีล่มและ leveraged ETF ระเบิด หลังจากเพิ่งทำจุดสูงสุดเป็นประวัติการณ์ ราคาวิ่งขึ้นมาแรงเกินพื้นฐาน",
       "keyPoints": [
-        "ร่วงกว่า 11% ลงมาที่ราว 2,027 ดอลลาร์",
-        "ผลกระทบจากตลาดเกาหลีและ ETF เลเวอเรจระเบิด",
-        "เป็นหุ้น NAND flash ที่แยกตัวจาก Western Digital เมื่อ ก.พ. 2025"
+        "ราคาดิ่งกว่า 12% นำการเทขายกลุ่ม NAND flash",
+        "ราคาขึ้นมาแรงเกินจนพื้นฐานตามไม่ทัน",
+        "ได้รับผลกระทบจากตลาดเกาหลีล่มและ ETF ระเบิด"
       ],
+      "recommendation": "wait",
+      "recommendationReason": "ราคาผันผวนรุนแรงและเพิ่งร่วงหนัก ควรรอให้นิ่งและประเมินพื้นฐานก่อน",
       "quote": {
-        "current": 1983.41,
-        "change": -290.32,
-        "percentChange": -12.7684,
+        "current": 1991.04,
+        "change": -282.69,
+        "percentChange": -12.4329,
         "prevClose": 2273.73
       },
       "headlines": [
+        {
+          "title": "Explore the top gainers and losers within the S&P500 index in today's session.",
+          "summary": "Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Tuesday.",
+          "url": "https://finnhub.io/api/news?id=55c606d263797257d962b0754f5ab27e22e1153f9a9e66ecec0ab260815912a8",
+          "source": "ChartMill",
+          "datetime": "2026-06-23T16:35:00.000Z",
+          "image": "https://www.chartmill.com/images/uploads/CM_Top_Movers_Small_free_2b4ff2fc22.webp"
+        },
         {
           "title": "Why Sandisk Stock Suddenly Crashed Today",
           "summary": "Single-stock leveraged ETFs were ticking time bombs. And they just blew up in Korea.",
@@ -165,14 +177,6 @@
           "source": "Yahoo",
           "datetime": "2026-06-23T13:46:08.000Z",
           "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
-        },
-        {
-          "title": "SanDisk Plunges 11%, Micron and Western Digital Slide 10% as Korean Market Crash Hits Memory Chips",
-          "summary": "Shares of SanDisk (NASDAQ:SNDK) are leading a sharp memory-chip selloff Tuesday morning session, with SanDisk stock down 11% to $2,027.50. The decline comes one day after the stock closed at a record high, capping a stunning run higher. Micron Technology (NASDAQ:MU) stock is sliding alongside it, off 10% to $1,085, while Western Digital (NASDAQ:WDC) shares ... SanDisk Plunges 11%, Micron and Western Digital Slide 10% as Korean Market Crash Hits Memory Chips",
-          "url": "https://finnhub.io/api/news?id=029b73e1b73c5f9486c6f772dd1f87ee3d91652575335f5d40b61fd67d01e770",
-          "source": "Yahoo",
-          "datetime": "2026-06-23T13:27:08.000Z",
-          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
         }
       ],
       "newsCount": 8
@@ -182,16 +186,18 @@
       "name": "TSMC",
       "sector": "Semiconductors",
       "sentiment": "neutral",
-      "summary": "หุ้น TSMC ปรับลง 4.3% ในตลาดก่อนเปิดท่ามกลางการเทขายหุ้นเทคทั้งกระดาน หลังจากก่อนหน้านี้เพิ่งทะลุระดับสูงสุดในรอบ 52 สัปดาห์ที่ 473.50 ดอลลาร์พร้อมสัญญาณทางเทคนิคขาขึ้น",
+      "summary": "TSMC ร่วงกว่า 5% ตามแรงเทขายกลุ่มชิปทั่วโลก หลังก่อนหน้านี้เพิ่งทะลุจุดสูงสุดในรอบ 52 สัปดาห์และเกิดสัญญาณ golden cross บ่งบอกแนวโน้มขาขึ้นระยะยาว",
       "keyPoints": [
-        "ลดลง 4.3% ในตลาดก่อนเปิดตามแรงเทขายกลุ่มเทค",
-        "เพิ่งทะลุจุดสูงสุด 52 สัปดาห์พร้อมสัญญาณ Golden Cross",
-        "อยู่ในกลุ่มหุ้นใหญ่ที่ถูกกดดันในวันอังคาร"
+        "ราคาร่วง 5.13% ตามกลุ่มชิป",
+        "ก่อนหน้านี้มีสัญญาณ golden cross ขาขึ้นระยะยาว",
+        "พื้นฐานยังแข็งแกร่งในฐานะผู้ผลิตชิปรายใหญ่"
       ],
+      "recommendation": "your_call",
+      "recommendationReason": "พื้นฐานแข็งแกร่งแต่อยู่ในช่วงปรับฐาน ขึ้นอยู่กับมุมมองความเสี่ยงของผู้ลงทุน",
       "quote": {
-        "current": 442.18,
-        "change": -25.49,
-        "percentChange": -5.4504,
+        "current": 443.7,
+        "change": -23.97,
+        "percentChange": -5.1254,
         "prevClose": 467.67
       },
       "headlines": [
@@ -243,16 +249,18 @@
       "name": "Western Digital",
       "sector": "Storage",
       "sentiment": "negative",
-      "summary": "หุ้น Western Digital ร่วงราว 10% พร้อมกับกลุ่มชิปหน่วยความจำ จากผลกระทบตลาดหุ้นเกาหลีดิ่งและความกังวลฟองสบู่ AI นักวิเคราะห์มองว่าเป็นการหมุนเวียนเงินทุน (rotation) มากกว่าการเทขายทิ้ง",
+      "summary": "Western Digital ร่วงกว่า 8% ตามแรงเทขายกลุ่มหน่วยความจำที่ลุกลามจากตลาดเกาหลี ท่ามกลางความกังวลเรื่องฟองสบู่ AI",
       "keyPoints": [
-        "ร่วงราว 10% ตามการดิ่งของหุ้นชิปหน่วยความจำ",
-        "ได้รับผลกระทบจากตลาดเกาหลีร่วง 10%",
-        "นักวิเคราะห์มองเป็น \"rotation ไม่ใช่ liquidation\""
+        "ราคาร่วง 8.16% ตามกลุ่ม memory chips",
+        "ได้รับผลกระทบจากการล่มของตลาดเกาหลี",
+        "นักวิเคราะห์มองว่าเป็นการขายทำกำไรมากกว่าวิกฤต"
       ],
+      "recommendation": "wait",
+      "recommendationReason": "ราคาร่วงแรงจากแรงเทขายทั้งกลุ่ม ควรรอให้ตลาดหน่วยความจำมีเสถียรภาพก่อน",
       "quote": {
-        "current": 672.96,
-        "change": -59.66,
-        "percentChange": -8.1434,
+        "current": 672.84,
+        "change": -59.78,
+        "percentChange": -8.1598,
         "prevClose": 732.62
       },
       "headlines": [
@@ -327,17 +335,19 @@
       "symbol": "GOOGL",
       "name": "Alphabet (Google)",
       "sector": "Software",
-      "sentiment": "negative",
-      "summary": "หุ้น Alphabet ร่วงแรง 6% สูญเสียมูลค่าตลาดกว่า 225,000 ล้านดอลลาร์ ซึ่งเป็นการร่วงครั้งใหญ่ที่สุดในรอบกว่าหนึ่งปี ส่วนหนึ่งจากความกังวลเรื่องสมองไหลในทีม AI (DeepMind) และข่าวการระดมทุนผ่านการขายพันธบัตร แม้ Google Cloud จะมียอดสั่งซื้อค้างส่งทำสถิติสูงสุดที่ 462,000 ล้านดอลลาร์",
+      "sentiment": "neutral",
+      "summary": "Alphabet ร่วงเพียง 0.53% ทรงตัวได้ดีกว่ากลุ่ม แม้ตลาดตั้งคำถามเรื่องสถานะผู้นำ AI และมีข่าวสมองไหลจาก DeepMind แต่ Google Cloud มี backlog ทำสถิติสูงถึง 4.62 แสนล้านดอลลาร์",
       "keyPoints": [
-        "มูลค่าตลาดหายกว่า 225,000 ล้านดอลลาร์ ร่วงหนักสุดในรอบปี",
-        "ตลาดตั้งคำถามเรื่องสมองไหลทีม AI และความสามารถแข่งขัน",
-        "Google Cloud มียอดค้างส่งทำสถิติสูงสุด 462,000 ล้านดอลลาร์"
+        "ราคาร่วงเพียงเล็กน้อย ทนทานกว่ากลุ่มเทค",
+        "Google Cloud backlog ทำสถิติ $462 พันล้าน",
+        "มีความกังวลเรื่องสมองไหลจากทีม AI"
       ],
+      "recommendation": "buy",
+      "recommendationReason": "ราคาแกร่งกว่ากลุ่มและพื้นฐาน Cloud เติบโตแข็งแกร่ง น่าสนใจในช่วงตลาดอ่อนตัว",
       "quote": {
-        "current": 347.49,
-        "change": -2.19,
-        "percentChange": -0.6263,
+        "current": 347.83,
+        "change": -1.85,
+        "percentChange": -0.5291,
         "prevClose": 349.68
       },
       "headlines": [
@@ -412,20 +422,30 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "Semiconductors",
-      "sentiment": "negative",
-      "summary": "หุ้น Nvidia เป็นผู้นำการเทขายในกลุ่มชิปและ AI ขณะที่นักลงทุนทยอยทำกำไร อย่างไรก็ตามมีข่าวเชิงบวกที่ Nvidia ระบุว่าโครงสร้างพื้นฐาน AI ใหม่สามารถลดการใช้น้ำในการระบายความร้อนได้เกือบเป็นศูนย์",
+      "sentiment": "neutral",
+      "summary": "NVIDIA ร่วง 2.88% ตามแรงเทขายกลุ่ม AI แต่ลดลงน้อยกว่าหุ้นหน่วยความจำ นักวิเคราะห์หลายฝ่ายยังคงมุมมองบวกและมองว่าเป็นโอกาสซื้อหุ้นชิปคุณภาพ",
       "keyPoints": [
-        "นำการเทขายกลุ่มชิปขณะ AI trade เย็นตัว",
-        "มีความกังวลเรื่องฟองสบู่พลังงาน AI จาก short-seller ชื่อดัง",
-        "เทคโนโลยีใหม่ช่วยลดการใช้น้ำระบายความร้อนได้เกือบเป็นศูนย์"
+        "ราคาร่วง 2.88% น้อยกว่าหุ้น memory",
+        "ยังถูกจัดเป็นหุ้นชิปที่น่าซื้อแม้ราคาขึ้นมามาก",
+        "ความกังวลเรื่องฟองสบู่ AI กดดันระยะสั้น"
       ],
+      "recommendation": "your_call",
+      "recommendationReason": "พื้นฐานยังแข็งแกร่งแต่อยู่ในช่วงปรับฐาน ขึ้นอยู่กับการรับความเสี่ยงของผู้ลงทุน",
       "quote": {
-        "current": 202.15,
-        "change": -6.5,
-        "percentChange": -3.1153,
+        "current": 202.65,
+        "change": -6,
+        "percentChange": -2.8756,
         "prevClose": 208.65
       },
       "headlines": [
+        {
+          "title": "Exploring the top movers within the dow jones index during today's session.",
+          "summary": "Wondering what's happening in today's session for the dow jones index? Stay informed with the top movers within the dow jones index on Tuesday.",
+          "url": "https://finnhub.io/api/news?id=e755fc6899b7c6387d6b178ee6c863bc2571863a8f9dd2e7a66b5599199d55cb",
+          "source": "ChartMill",
+          "datetime": "2026-06-23T16:40:03.000Z",
+          "image": "https://www.chartmill.com/images/uploads/CM_Top_Movers_Small_free_2b4ff2fc22.webp"
+        },
         {
           "title": "SpaceX shares tick higher after two-day slump erases $600B",
           "summary": "SpaceX Corp (NASDAQ:SPCX) shares rose 2.5% on Tuesday, offering a partial reprieve after a brutal two-day selloff that wiped more than $600 billion from the rocket and satellite company's market value and marked one of the most dramatic reversals ever seen in a newly listed mega-cap...",
@@ -481,14 +501,6 @@
           "source": "Yahoo",
           "datetime": "2026-06-23T15:25:29.000Z",
           "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
-        },
-        {
-          "title": "SpaceX Rises After Three Brutal Days as Susquehanna Sees “Quite a Bit of Risk” in SPCX Stock",
-          "summary": "SpaceX (NASDAQ:SPCX) stock has endured a rough stretch since its highly anticipated public debut. After closing at $211.39 on June 16, SPCX stock fell to $191.82 on June 17, then slipped to $185 on June 18 before plunging to $154.60 on June 22. SpaceX stock is trading modestly higher today, but the three-session selloff erased ... SpaceX Rises After Three Brutal Days as Susquehanna Sees “Quite a Bit of Risk” in SPCX Stock",
-          "url": "https://finnhub.io/api/news?id=b132291fdb2e68d2fbcc7a8f3d74cde074237b0b3d7f70f0d619f3aa45fef679",
-          "source": "Yahoo",
-          "datetime": "2026-06-23T15:24:48.000Z",
-          "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
         }
       ],
       "newsCount": 8
@@ -498,16 +510,18 @@
       "name": "SpaceX",
       "sector": "Space / Aerospace",
       "sentiment": "neutral",
-      "summary": "หุ้น SpaceX ฟื้นตัวขึ้น 2.5% หลังร่วงสามวันติดต่อกันสูญเสียมูลค่ากว่า 600,000 ล้านดอลลาร์ ซึ่งเป็นหนึ่งในการพลิกกลับที่รุนแรงที่สุดของหุ้นเมกะแคปที่เพิ่งเข้าตลาด นักวิเคราะห์ Susquehanna เตือนว่ายังมีความเสี่ยงค่อนข้างมาก",
+      "summary": "SpaceX ฟื้นตัว 5.78% หลังร่วงหนักสามวันติดสูญมูลค่ากว่า 6 แสนล้านดอลลาร์ แต่นักกลยุทธ์ยังเตือนให้มองระยะยาว เพราะกระแสตื่นเต้นช่วง IPO เริ่มจางลง",
       "keyPoints": [
-        "ฟื้นตัว 2.5% หลังร่วงสามวันติด สูญมูลค่ากว่า 600,000 ล้านดอลลาร์",
-        "ราคาลงมาต่ำกว่า 155 ดอลลาร์จากจุดเปิดตัว 211 ดอลลาร์",
-        "นักวิเคราะห์ยังเตือนถึงความเสี่ยงที่สูง"
+        "ราคาฟื้น 5.78% หลังร่วงหนักสามวัน",
+        "มูลค่าหายไปกว่า $600 พันล้านในช่วงก่อนหน้า",
+        "กระแส IPO เริ่มจางลง ต้องมองระยะยาว"
       ],
+      "recommendation": "wait",
+      "recommendationReason": "ราคาผันผวนรุนแรงหลัง IPO ใหม่ ควรรอให้ราคามีเสถียรภาพก่อนตัดสินใจ",
       "quote": {
-        "current": 163.83,
-        "change": 9.23,
-        "percentChange": 5.9702,
+        "current": 163.53,
+        "change": 8.93,
+        "percentChange": 5.7762,
         "prevClose": 154.6
       },
       "headlines": [
@@ -583,16 +597,18 @@
       "name": "Tesla",
       "sector": "EV / Tech",
       "sentiment": "neutral",
-      "summary": "Tesla มีข่าวผสมผสาน โดยเซ็นข้อตกลงระบบกักเก็บพลังงานแบตเตอรี่กว่า 25 GWh ในอิตาลีและสหราชอาณาจักร และคงแชมป์รถ \"Made in America\" ต่อเนื่องปีที่ 6 แต่หุ้นถูกกดดันจากข่าว NHTSA ตรวจสอบอุบัติเหตุร้ายแรง",
+      "summary": "Tesla ร่วง 4.87% ตามกลุ่มเทค พร้อมข่าวลบเรื่อง NHTSA ตรวจสอบอุบัติเหตุร้ายแรง แม้จะมีข่าวบวกเรื่องดีลแบตเตอรี่กับ NatPower ในยุโรปและครองตำแหน่งรถ 'American-made' อันดับหนึ่ง",
       "keyPoints": [
-        "เซ็นดีลแบตเตอรี่กว่า 25 GWh ในยุโรป มูลค่าก่อสร้าง 4-5 พันล้านดอลลาร์",
-        "Model 3 และ Model Y ครองอันดับ \"Made in America\" ปีที่ 6",
-        "หุ้นถูกกดดันจากการตรวจสอบอุบัติเหตุร้ายแรงโดย NHTSA"
+        "ราคาร่วง 4.87% ตามตลาดเทค",
+        "NHTSA สอบสวนอุบัติเหตุร้ายแรง",
+        "ดีลแบตเตอรี่กับ NatPower ในยุโรปมูลค่า $4-5 พันล้าน"
       ],
+      "recommendation": "your_call",
+      "recommendationReason": "มีทั้งข่าวบวกและลบปะปนกัน ขึ้นอยู่กับมุมมองของผู้ลงทุนต่อความเสี่ยง",
       "quote": {
-        "current": 384.26,
-        "change": -20.79,
-        "percentChange": -5.1327,
+        "current": 385.31,
+        "change": -19.74,
+        "percentChange": -4.8735,
         "prevClose": 405.05
       },
       "headlines": [
@@ -668,16 +684,18 @@
       "name": "Rocket Lab",
       "sector": "Space / Aerospace",
       "sentiment": "neutral",
-      "summary": "Rocket Lab เข้าร่วมดัชนี Nasdaq-100 อย่างเป็นทางการ ทำให้กองทุน Passive และ ETF ต้องเพิ่มหุ้นเข้าพอร์ต อย่างไรก็ตามหุ้นกลุ่มอวกาศโดยรวมปรับฐานลงหลังพุ่งขึ้นก่อนการ IPO ของ SpaceX",
+      "summary": "Rocket Lab ร่วง 2.91% ตามกลุ่มหุ้นอวกาศที่ปรับฐานหลังกระแส IPO ของ SpaceX จางลง แต่มีข่าวบวกได้เข้าร่วมดัชนี Nasdaq-100 ซึ่งทำให้กองทุนต้องเข้าซื้อ",
       "keyPoints": [
-        "เข้าร่วมดัชนี Nasdaq-100 อย่างเป็นทางการ",
-        "กองทุน Passive และ ETF ต้องเพิ่มหุ้นเข้าพอร์ต",
-        "หุ้นกลุ่มอวกาศปรับฐานลงหลังพุ่งแรงก่อน SpaceX IPO"
+        "ราคาร่วง 2.91% ตามกลุ่มหุ้นอวกาศ",
+        "เข้าร่วมดัชนี Nasdaq-100 หนุนแรงซื้อจากกองทุน",
+        "กระแสหุ้นอวกาศเริ่มเย็นลง"
       ],
+      "recommendation": "your_call",
+      "recommendationReason": "การเข้า Nasdaq-100 เป็นบวกแต่กลุ่มอวกาศยังผันผวน ขึ้นอยู่กับการตัดสินใจของผู้ลงทุน",
       "quote": {
-        "current": 97.39,
-        "change": -2.9,
-        "percentChange": -2.8916,
+        "current": 97.37,
+        "change": -2.92,
+        "percentChange": -2.9116,
         "prevClose": 100.29
       },
       "headlines": [

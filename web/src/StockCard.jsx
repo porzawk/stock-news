@@ -6,6 +6,12 @@ const SENTIMENT_META = {
   negative: { label: "ข่าวเชิงลบ", icon: "▼" },
 };
 
+const REC_META = {
+  buy: { label: "ซื้อเลย", icon: "✓" },
+  wait: { label: "รอก่อน", icon: "⏸" },
+  your_call: { label: "แล้วแต่คุณ", icon: "?" },
+};
+
 function formatTime(iso) {
   try {
     return new Date(iso).toLocaleString("th-TH", {
@@ -22,6 +28,7 @@ function formatTime(iso) {
 export default function StockCard({ stock }) {
   const [open, setOpen] = useState(false);
   const sent = SENTIMENT_META[stock.sentiment] || SENTIMENT_META.neutral;
+  const rec = REC_META[stock.recommendation];
 
   return (
     <article className={`card sent-${stock.sentiment}`}>
@@ -49,6 +56,32 @@ export default function StockCard({ stock }) {
           </span>
         )}
       </div>
+
+      {rec && (
+        <div className={`rec rec-${stock.recommendation}`}>
+          <span className="rec-badge">
+            {rec.icon} {rec.label}
+          </span>
+          {stock.recommendationReason && (
+            <span className="rec-reason">{stock.recommendationReason}</span>
+          )}
+          {(typeof stock.buyPrice === "number" ||
+            typeof stock.sellPrice === "number") && (
+            <span className="rec-prices">
+              {typeof stock.buyPrice === "number" && (
+                <span className="rec-price buy">
+                  เข้า ~${stock.buyPrice.toFixed(2)}
+                </span>
+              )}
+              {typeof stock.sellPrice === "number" && (
+                <span className="rec-price sell">
+                  ออก ~${stock.sellPrice.toFixed(2)}
+                </span>
+              )}
+            </span>
+          )}
+        </div>
+      )}
 
       <p className="summary">{stock.summary}</p>
 

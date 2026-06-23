@@ -92,14 +92,24 @@ function buildPrompts(stocksWithNews) {
             }`
         )
         .join("\n");
-      return `### ${s.symbol} (${s.name})\n${lines || "   (ไม่มีข่าวในช่วงนี้)"}`;
+      const q = s.quote;
+      const priceLine =
+        q && typeof q.percentChange === "number"
+          ? `   ราคาล่าสุด $${q.current} (${
+              q.percentChange > 0 ? "+" : ""
+            }${q.percentChange.toFixed(2)}% เทียบวันก่อน)`
+          : "   (ไม่มีข้อมูลราคา)";
+      return `### ${s.symbol} (${s.name})\n${priceLine}\n${
+        lines || "   (ไม่มีข่าวในช่วงนี้)"
+      }`;
     })
     .join("\n\n");
 
   const systemPrompt =
     "คุณเป็นนักวิเคราะห์ข่าวหุ้นเทคโนโลยีตลาด NASDAQ ที่เชี่ยวชาญ " +
-    "หน้าที่ของคุณคืออ่านพาดหัวข่าวภาษาอังกฤษแล้วสรุปเป็นภาษาไทยที่กระชับ เข้าใจง่าย " +
-    "เป็นกลาง และเป็นประโยชน์ต่อนักลงทุน โดยไม่ใส่ความเห็นชี้นำให้ซื้อ/ขาย";
+    "หน้าที่ของคุณคืออ่านพาดหัวข่าวภาษาอังกฤษพร้อมราคา/การเปลี่ยนแปลงล่าสุด " +
+    "แล้วสรุปเป็นภาษาไทยที่กระชับ เข้าใจง่าย และให้คำแนะนำการลงทุนระยะสั้นแบบตรงไปตรงมา " +
+    "ว่าควร ซื้อเลย / รอก่อน / หรือแล้วแต่ผู้ใช้ โดยอ้างอิงจากทั้งข่าวและราคาที่ให้มา";
 
   const userPrompt = `นี่คือพาดหัวข่าวล่าสุดของหุ้นเทคแต่ละตัว:
 
@@ -111,6 +121,10 @@ ${newsBlock}
    - summary: สรุปประเด็นข่าวสำคัญของหุ้นตัวนั้นเป็นภาษาไทย 1-3 ประโยค (ถ้าไม่มีข่าวให้บอกว่า "ไม่มีข่าวเด่นในช่วงนี้")
    - sentiment: ทิศทางข่าวโดยรวม เลือกจาก positive / neutral / negative
    - keyPoints: ประเด็นย่อย 1-3 ข้อ (bullet สั้นๆ ภาษาไทย)
+   - recommendation: คำแนะนำการลงทุนระยะสั้น เลือกจาก buy (น่าซื้อเลย) / wait (รอดูก่อน) / your_call (แล้วแต่ผู้ใช้ตัดสินใจ ข้อมูลยังไม่ชัด) โดยพิจารณาจากทั้งข่าวและราคา/การเปลี่ยนแปลง
+   - recommendationReason: เหตุผลสั้นๆ 1 ประโยคเป็นภาษาไทย ว่าทำไมจึงแนะนำเช่นนั้น
+   - buyPrice: ราคาที่เหมาะจะเข้าซื้อโดยประมาณ เป็นตัวเลข USD อ้างอิงจาก "ราคาล่าสุด" ที่ให้มา (เช่น แนวรับ/จุดที่คุ้มเข้า) ถ้าประเมินไม่ได้ให้เป็น null
+   - sellPrice: ราคาเป้าหมายขาย/ทำกำไรโดยประมาณ เป็นตัวเลข USD (ควรสูงกว่า buyPrice) ถ้าประเมินไม่ได้ให้เป็น null
 ครอบคลุมหุ้นทุกตัวที่ให้มา และใช้ symbol ให้ตรงกัน`;
 
   const schema = {
@@ -129,8 +143,24 @@ ${newsBlock}
               enum: ["positive", "neutral", "negative"],
             },
             keyPoints: { type: "array", items: { type: "string" } },
+            recommendation: {
+              type: "string",
+              enum: ["buy", "wait", "your_call"],
+            },
+            recommendationReason: { type: "string" },
+            buyPrice: { type: ["number", "null"] },
+            sellPrice: { type: ["number", "null"] },
           },
-          required: ["symbol", "summary", "sentiment", "keyPoints"],
+          required: [
+            "symbol",
+            "summary",
+            "sentiment",
+            "keyPoints",
+            "recommendation",
+            "recommendationReason",
+            "buyPrice",
+            "sellPrice",
+          ],
           additionalProperties: false,
         },
       },
@@ -283,6 +313,10 @@ async function main() {
       sentiment: a.sentiment || "neutral",
       summary: a.summary || "ไม่มีข่าวเด่นในช่วงนี้",
       keyPoints: a.keyPoints || [],
+      recommendation: a.recommendation || "your_call",
+      recommendationReason: a.recommendationReason || "",
+      buyPrice: typeof a.buyPrice === "number" ? a.buyPrice : null,
+      sellPrice: typeof a.sellPrice === "number" ? a.sellPrice : null,
       quote: s.quote,
       headlines: s.news,
       newsCount: s.news.length,

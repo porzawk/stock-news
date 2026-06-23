@@ -9,15 +9,21 @@ import { writeFile, mkdir } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { STOCKS, MAX_HEADLINES_PER_STOCK, LOOKBACK_DAYS } from "./stocks.config.js";
+import { hasDatabase, ensureSchema, saveDailySnapshot, getHistory } from "./db.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = process.env.CLAUDE_MODEL || "claude-opus-4-8";
+// Groq เป็น AI สำรอง (OpenAI-compatible) ใช้เมื่อ Claude เรียกไม่ได้ เช่น credit หมด
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
 
 // จุดหมายของไฟล์ผลลัพธ์ (โฟลเดอร์ public ของเว็บ React)
 const OUTPUT_PATH = join(__dirname, "web", "public", "data", "news.json");
+// ไฟล์ประวัติย้อนหลัง (อ่านจาก Neon มาเขียนเป็น snapshot ให้เว็บ static อ่าน)
+const HISTORY_PATH = join(__dirname, "web", "public", "data", "history.json");
 
 // ---------- ตัวช่วยจัดรูปแบบวันที่ YYYY-MM-DD ----------
 function fmtDate(d) {
@@ -73,10 +79,8 @@ async function fetchQuote(symbol) {
   };
 }
 
-// ---------- 2) สรุปข่าวทั้งหมดด้วย Claude (ภาษาไทย) ----------
-async function summarizeWithClaude(stocksWithNews) {
-  const client = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
-
+// ---------- 2) สร้าง prompt + schema สำหรับให้ AI สรุป (ใช้ร่วมกันทุกเจ้า) ----------
+function buildPrompts(stocksWithNews) {
   // สร้างข้อความรวมข่าวของทุกหุ้นให้ AI อ่าน
   const newsBlock = stocksWithNews
     .map((s) => {
@@ -135,6 +139,12 @@ ${newsBlock}
     additionalProperties: false,
   };
 
+  return { systemPrompt, userPrompt, schema };
+}
+
+// ---------- 2a) สรุปด้วย Claude (Anthropic) ----------
+async function summarizeWithClaude({ systemPrompt, userPrompt, schema }) {
+  const client = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
   const response = await client.messages.create({
     model: MODEL,
     max_tokens: 8000,
@@ -142,9 +152,73 @@ ${newsBlock}
     messages: [{ role: "user", content: userPrompt }],
     output_config: { format: { type: "json_schema", schema } },
   });
-
   const text = response.content.find((b) => b.type === "text")?.text ?? "{}";
   return JSON.parse(text);
+}
+
+// ---------- 2b) สรุปด้วย Groq (OpenAI-compatible) เป็นตัวสำรอง ----------
+async function summarizeWithGroq({ systemPrompt, userPrompt, schema }) {
+  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${GROQ_API_KEY}`,
+    },
+    body: JSON.stringify({
+      model: GROQ_MODEL,
+      temperature: 0.3,
+      max_tokens: 8000,
+      // Groq รองรับ json_object — แนบ schema ไว้ใน prompt เพื่อให้รูปแบบตรงกัน
+      response_format: { type: "json_object" },
+      messages: [
+        {
+          role: "system",
+          content:
+            systemPrompt +
+            "\n\nตอบกลับเป็น JSON object ที่ถูกต้องเท่านั้น ห้ามมีข้อความอื่นนอก JSON",
+        },
+        {
+          role: "user",
+          content:
+            userPrompt +
+            "\n\nตอบเป็น JSON object ตาม schema นี้เท่านั้น:\n" +
+            JSON.stringify(schema),
+        },
+      ],
+    }),
+  });
+  if (!res.ok) {
+    throw new Error(`Groq ตอบกลับ ${res.status}: ${await res.text()}`);
+  }
+  const data = await res.json();
+  const text = data.choices?.[0]?.message?.content ?? "{}";
+  return JSON.parse(text);
+}
+
+// ---------- 2) สรุปข่าว: ลอง Claude ก่อน ถ้าใช้ไม่ได้ (เช่น credit หมด) สลับไป Groq ----------
+async function summarizeNews(stocksWithNews) {
+  const prompts = buildPrompts(stocksWithNews);
+
+  if (ANTHROPIC_API_KEY) {
+    try {
+      const ai = await summarizeWithClaude(prompts);
+      return { ai, provider: `claude (${MODEL})` };
+    } catch (err) {
+      if (!GROQ_API_KEY) throw err; // ไม่มีตัวสำรอง — โยน error ต่อ
+      const status = err.status ? `HTTP ${err.status} · ` : "";
+      console.warn(
+        `⚠ Claude ใช้ไม่ได้ (${status}${err.message}) — สลับไปใช้ Groq (${GROQ_MODEL})`
+      );
+    }
+  }
+
+  if (!GROQ_API_KEY) {
+    throw new Error(
+      "ไม่พบทั้ง ANTHROPIC_API_KEY และ GROQ_API_KEY — ตั้งค่าอย่างน้อยหนึ่งตัวใน .env"
+    );
+  }
+  const ai = await summarizeWithGroq(prompts);
+  return { ai, provider: `groq (${GROQ_MODEL})` };
 }
 
 // ---------- main ----------
@@ -153,8 +227,10 @@ async function main() {
     console.error("❌ ไม่พบ FINNHUB_API_KEY ใน .env (สมัครฟรีที่ https://finnhub.io)");
     process.exit(1);
   }
-  if (!ANTHROPIC_API_KEY) {
-    console.error("❌ ไม่พบ ANTHROPIC_API_KEY ใน .env (สมัครที่ https://console.anthropic.com)");
+  if (!ANTHROPIC_API_KEY && !GROQ_API_KEY) {
+    console.error(
+      "❌ ไม่พบ ANTHROPIC_API_KEY หรือ GROQ_API_KEY ใน .env (ต้องมีอย่างน้อยหนึ่งตัว)"
+    );
     process.exit(1);
   }
 
@@ -192,8 +268,9 @@ async function main() {
     await new Promise((r) => setTimeout(r, 600));
   }
 
-  console.log("🤖 ส่งให้ Claude สรุปเป็นภาษาไทย...");
-  const ai = await summarizeWithClaude(stocksWithNews);
+  console.log("🤖 ส่งให้ AI สรุปเป็นภาษาไทย...");
+  const { ai, provider } = await summarizeNews(stocksWithNews);
+  console.log(`   ✓ สรุปด้วย ${provider}`);
 
   // รวมข้อมูลสรุปจาก AI เข้ากับ headline จริง (เก็บลิงก์ไว้ครบ)
   const aiBySymbol = new Map((ai.stocks || []).map((s) => [s.symbol, s]));
@@ -215,7 +292,7 @@ async function main() {
   const output = {
     generatedAt: new Date().toISOString(),
     dateRange: { from: fromStr, to: toStr },
-    model: MODEL,
+    model: provider,
     marketOverview: ai.marketOverview || "",
     stocks,
   };
@@ -224,6 +301,44 @@ async function main() {
   await writeFile(OUTPUT_PATH, JSON.stringify(output, null, 2), "utf-8");
 
   console.log(`✅ เขียนผลลัพธ์เรียบร้อย: ${OUTPUT_PATH}`);
+
+  // ---------- บันทึกประวัติลง Neon + เขียน history.json ให้เว็บ ----------
+  if (!hasDatabase()) {
+    console.warn("⚠ ข้าม Neon: ไม่พบ DATABASE_URL ใน .env (ไม่เก็บประวัติ/ไม่มีหน้าสรุปย้อนหลัง)");
+    return;
+  }
+
+  try {
+    await ensureSchema();
+
+    // 1 แถวต่อหุ้นต่อวัน — ใช้วันที่ "to" (วันนี้) เป็น key ของวัน
+    const snapshotRows = stocks.map((s) => ({
+      date: toStr,
+      symbol: s.symbol,
+      name: s.name,
+      sector: s.sector,
+      sentiment: s.sentiment,
+      quote: s.quote,
+      newsCount: s.newsCount,
+      summary: s.summary,
+    }));
+
+    const saved = await saveDailySnapshot(snapshotRows);
+    console.log(`🗄  บันทึกลง Neon ${saved} แถว (วันที่ ${toStr})`);
+
+    // ดึงประวัติย้อนหลังมาเขียนเป็น snapshot ให้เว็บ static อ่าน
+    const history = await getHistory(90);
+    const historyOutput = {
+      generatedAt: new Date().toISOString(),
+      days: 90,
+      rows: history,
+    };
+    await writeFile(HISTORY_PATH, JSON.stringify(historyOutput, null, 2), "utf-8");
+    console.log(`✅ เขียนประวัติ ${history.length} แถว: ${HISTORY_PATH}`);
+  } catch (err) {
+    console.error("❌ บันทึก/อ่านประวัติจาก Neon ล้มเหลว:", err.message);
+    // ไม่ throw — ให้ข่าวรายวันยังทำงานได้แม้ DB มีปัญหา
+  }
 }
 
 main().catch((err) => {

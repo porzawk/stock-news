@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-06-23T17:05:27.843Z",
+  "days": 90,
+  "rows": [
+    {
+      "date": "2026-06-24",
+      "symbol": "AMD",
+      "name": "AMD",
+      "sector": "Semiconductors",
+      "sentiment": "negative",
+      "sentimentScore": -1,
+      "priceCurrent": 521.21,
+      "prevClose": 551.63,
+      "priceChange": -30.42,
+      "percentChange": -5.5146,
+      "newsCount": 8
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "GOOGL",
+      "name": "Alphabet (Google)",
+      "sector": "Software",
+      "sentiment": "negative",
+      "sentimentScore": -1,
+      "priceCurrent": 347.49,
+      "prevClose": 349.68,
+      "priceChange": -2.19,
+      "percentChange": -0.6263,
+      "newsCount": 8
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Semiconductors",
+      "sentiment": "negative",
+      "sentimentScore": -1,
+      "priceCurrent": 202.15,
+      "prevClose": 208.65,
+      "priceChange": -6.5,
+      "percentChange": -3.1153,
+      "newsCount": 8
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "RKLB",
+      "name": "Rocket Lab",
+      "sector": "Space / Aerospace",
+      "sentiment": "neutral",
+      "sentimentScore": 0,
+      "priceCurrent": 97.39,
+      "prevClose": 100.29,
+      "priceChange": -2.9,
+      "percentChange": -2.8916,
+      "newsCount": 4
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "SNDK",
+      "name": "SanDisk",
+      "sector": "Storage",
+      "sentiment": "negative",
+      "sentimentScore": -1,
+      "priceCurrent": 1983.41,
+      "prevClose": 2273.73,
+      "priceChange": -290.32,
+      "percentChange": -12.7684,
+      "newsCount": 8
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "sector": "Space / Aerospace",
+      "sentiment": "neutral",
+      "sentimentScore": 0,
+      "priceCurrent": 163.83,
+      "prevClose": 154.6,
+      "priceChange": 9.23,
+      "percentChange": 5.9702,
+      "newsCount": 8
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "sector": "EV / Tech",
+      "sentiment": "neutral",
+      "sentimentScore": 0,
+      "priceCurrent": 384.26,
+      "prevClose": 405.05,
+      "priceChange": -20.79,
+      "percentChange": -5.1327,
+      "newsCount": 8
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "TSM",
+      "name": "TSMC",
+      "sector": "Semiconductors",
+      "sentiment": "neutral",
+      "sentimentScore": 0,
+      "priceCurrent": 442.18,
+      "prevClose": 467.67,
+      "priceChange": -25.49,
+      "percentChange": -5.4504,
+      "newsCount": 5
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Storage",
+      "sentiment": "negative",
+      "sentimentScore": -1,
+      "priceCurrent": 672.96,
+      "prevClose": 732.62,
+      "priceChange": -59.66,
+      "percentChange": -8.1434,
+      "newsCount": 8
+    }
+  ]
+}

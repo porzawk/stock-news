@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import StockCard from "./StockCard.jsx";
 import Dashboard from "./Dashboard.jsx";
+import History from "./History.jsx";
 
 const SENTIMENT_FILTERS = [
   { key: "all", label: "ทั้งหมด" },
@@ -117,10 +118,18 @@ export default function App() {
           >
             📰 ข่าวรายตัว
           </button>
+          <button
+            className={`tab ${view === "history" ? "active" : ""}`}
+            onClick={() => setView("history")}
+          >
+            📈 สรุปย้อนหลัง
+          </button>
         </nav>
       </header>
 
       {view === "dashboard" && <Dashboard data={data} />}
+
+      {view === "history" && <History />}
 
       {view === "news" && (
       <>

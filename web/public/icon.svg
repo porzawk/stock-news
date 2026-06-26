@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0e14"/>
+  <g fill="none" stroke="#4dd6c1" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <!-- เส้นกราฟขาขึ้น -->
+    <polyline points="96,352 192,288 272,320 416,176"/>
+    <!-- หัวลูกศร -->
+    <polyline points="356,168 416,168 416,228"/>
+  </g>
+  <!-- แท่งราคาจาง ๆ -->
+  <g fill="#4dd6c1" opacity="0.25">
+    <rect x="86" y="356" width="20" height="60" rx="6"/>
+    <rect x="182" y="292" width="20" height="124" rx="6"/>
+    <rect x="262" y="324" width="20" height="92" rx="6"/>
+    <rect x="406" y="232" width="20" height="184" rx="6"/>
+  </g>
+</svg>
